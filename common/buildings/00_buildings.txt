@@ -1034,7 +1034,6 @@ cathedral = {
 	cost = 300
 	time = 12
 	modifier = {
-		local_missionary_strength = 0.02
 		local_tax_modifier = 0.8
 	}
 	on_built = {
