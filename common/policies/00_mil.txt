@@ -1,0 +1,456 @@
+the_provincial_taxation_system = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = administrative_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = administrative_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	discipline = 0.02
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+	
+}
+
+the_mining_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = quality_ideas
+	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	discipline = 0.02
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+the_liquor_act = {
+	monarch_power = DIP
+	
+	
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = administrative_ideas
+	}	
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+	}
+}
+
+horse_artillery = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = offensive_ideas
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = offensive_ideas
+		full_idea_group = economic_ideas
+	}
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { artillery_fraction = 0.2 }
+		}			
+		modifier = {
+			factor = 1.5
+			artillery_fraction = 0.28
+		}
+		modifier = {
+			factor = 1.5
+			artillery_fraction = 0.38
+		}
+		modifier = {
+			factor = 1.5
+			artillery_fraction = 0.45
+		}
+	}
+}
+
+public_road_act = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = offensive_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = offensive_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.6
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}
+	}
+}
+
+superior_supply_system = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = exploration_ideas
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+pen_rely_on_sword_act = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	discipline = 0.02
+
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { army_size_percentage = 0.9 }
+		}			
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 1.1
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 1.5
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 2
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 2.5
+		}
+	}
+}
+
+local_army_organisation = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = defensive_ideas
+	}
+
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+underhanded_diplomacy_act = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+	}
+}
+
+
+hired_adventurers_act = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = quantity_ideas
+		has_idea_group = exploration_ideas
+	}
+	
+	allow = {
+		full_idea_group = quantity_ideas
+		full_idea_group = exploration_ideas
+	}
+
+	discipline = 0.02
+
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}	
+
+colonial_garrisons = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quantity_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = quantity_ideas
+		full_idea_group = expansion_ideas
+	}
+
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+weapon_quality_standards = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = economic_ideas
+		has_idea_group = quality_ideas
+	}
+	allow = {
+		full_idea_group = economic_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	discipline = 0.02
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+mobile_siege_engines_act = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = offensive_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = offensive_ideas 
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+bolstered_defence_act = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = defensive_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = defensive_ideas 
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+handpicked_recruits_act = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = quality_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = quality_ideas 
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+mass_conscription_act = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = quantity_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = quantity_ideas
+		
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+naval_armament_act = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = naval_ideas 
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = naval_ideas 
+	}
+	
+	discipline = 0.02
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}

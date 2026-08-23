@@ -1,0 +1,142 @@
+adem0 = {
+	adm_advisor_cost = 0.6
+}
+
+adem1 = {
+	adm_advisor_cost = 0.4
+}
+
+adem2 = {
+	adm_advisor_cost = 0.2
+}
+
+edip0 = {
+	dip_advisor_cost = 0.6
+}
+
+edip1 = {
+	dip_advisor_cost = 0.4
+}
+
+edip2 = {
+	dip_advisor_cost = 0.2
+}
+
+mile0 = {
+	mil_advisor_cost = 0.6
+}
+
+mile1 = {
+	mil_advisor_cost = 0.4
+}
+
+mile2 = {
+	mil_advisor_cost = 0.2
+}
+
+philosophercc = {
+}
+natural_scientistcc = {
+}
+army_reformercc = {
+}
+naval_reformercc = {
+}
+artistcc = {
+}
+treasurercc = {
+}
+theologiancc = {
+}
+statesmancc = {
+}
+colonial_governorcc = {
+}
+spymastercc = {
+}
+diplomatcc = {
+}
+tradercc = {
+}
+master_of_mintcc = {
+}
+navigatorcc = {
+}
+grand_captaincc = {
+}
+army_organiser = {
+}
+commandantcc = {
+}
+quartermastercc = {
+}
+recruitmastercc = {
+}
+fortification_expertcc = {
+}
+inquisitorcc = {
+}
+
+philosopherc = {
+	prestige = 2
+}
+natural_scientistc = {
+	production_efficiency = 0.2
+}
+army_reformerc = {
+	land_morale = 0.2
+}
+naval_reformerc = {
+	naval_morale = 0.2
+}
+artistc = {
+	stability_cost_modifier = -0.2
+}
+treasurerc = {
+	global_tax_modifier = 0.2
+}
+theologianc = {
+	global_unrest = -4
+}
+statesmanc = {
+	diplomatic_reputation = 2
+}
+colonial_governorc = {
+	global_tariffs = 0.2
+}
+spymasterc = {
+	spy_offence = 0.5
+}
+diplomatc = {
+	improve_relation_modifier = 0.4
+}
+traderc = {
+	trade_efficiency = 0.2
+}
+master_of_mintc = {
+	inflation_reduction = 0.2
+}
+navigatorc = {
+	range = 0.4
+}
+grand_captainc = {
+	land_maintenance_modifier = -0.2
+}
+army_organiser = {
+	land_forcelimit_modifier = 0.2
+}
+commandantc = {
+	discipline = 0.1
+}
+quartermasterc = {
+	reinforce_speed = 0.66
+}
+recruitmasterc = {
+	global_manpower_modifier = 0.2
+}
+fortification_expertc = {
+	defensiveness = 0.4
+}
+inquisitorc = {
+	global_missionary_strength = 0.04
+}

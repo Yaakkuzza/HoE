@@ -1,0 +1,41 @@
+country_decisions = {
+		development_counter = {
+		color = { 166  0  0 }
+		allow = {
+			if = {
+				limit = {
+					has_country_flag = has_development_counter_cflag
+				}
+				custom_trigger_tooltip = {
+					tooltip = development_counter_tt
+				}
+			}
+			hidden_trigger = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = has_development_counter_cflag }
+					}
+					always = yes
+				}
+				else = {
+					always = no
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = has_development_counter_cflag }
+				}
+				custom_tooltip = development_counter_update_tt
+				hidden_effect = { development_counter = { on_startup = yes } }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+ 
+
+

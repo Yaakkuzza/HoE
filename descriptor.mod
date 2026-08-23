@@ -1,0 +1,15 @@
+version="1"
+tags={
+	"Balance"
+	"Fixes"
+	"Trade"
+	"Technologies"
+	"Military"
+	"National Ideas"
+	"Historical"
+	"Gameplay"
+	"Events"
+}
+name="HOE"
+supported_version="v1.37.5.0"
+remote_file_id="3467609915"

@@ -1,0 +1,1095 @@
+# Philosopher
+country_event = {
+	id = 4021
+	title = "EVTNAME4021"
+	desc = "EVTDESC4021"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		philosopher = 3
+		NOT = {
+			has_country_modifier = "philosophercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4021"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = philosopherc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = philosophercc
+			duration = 18250
+		}
+	}
+}
+
+# Natural Scientist
+country_event = {
+	id = 4022
+	title = "EVTNAME4022"
+	desc = "EVTDESC4022"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		natural_scientist = 3
+		NOT = {
+			has_country_modifier = "natural_scientistcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4022"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = natural_scientistc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = natural_scientistcc
+			duration = 18250
+		}
+	}
+}
+
+
+# Army Reformer
+country_event = {
+	id = 4023
+	title = "EVTNAME4023"
+	desc = "EVTDESC4023"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		army_reformer = 3
+		NOT = {
+			has_country_modifier = "army_reformercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4023"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = army_reformerc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = army_reformercc
+			duration = 18250
+		}
+	}
+}
+
+# Naval reformer
+country_event = {
+	id = 4024
+	title = "EVTNAME4024"
+	desc = "EVTDESC4024"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		naval_reformer = 3
+		NOT = {
+			has_country_modifier = "naval_reformercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = naval_reformerc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = naval_reformercc
+			duration = 18250
+		}
+	}
+}
+
+
+# Artist
+country_event = {
+	id = 4025
+	title = "EVTNAME4025"
+	desc = "EVTDESC4025"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	trigger = {
+		artist = 3
+		NOT = {
+			has_country_modifier = "artistcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4025"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = artistc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = artistcc
+			duration = 18250
+		}
+	}
+}
+
+
+# Treasurer
+country_event = {
+	id = 4026
+	title = "EVTNAME4026"
+	desc = "EVTDESC4026"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		treasurer = 3
+		NOT = {
+			has_country_modifier = "treasurercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+	
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4026"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = treasurerc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = treasurercc
+			duration = 18250
+		}
+	}
+}
+
+
+# Theologian
+country_event = {
+	id = 4027
+	title = "EVTNAME4027"
+	desc = "EVTDESC4027"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		theologian = 3
+		NOT = {
+			has_country_modifier = "theologiancc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4027"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = theologianc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = theologiancc
+			duration = 18250
+		}
+	}
+}
+
+
+# Statesman
+country_event = {
+	id = 4028
+	title = "EVTNAME4028"
+	desc = "EVTDESC4028"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		statesman = 3
+		NOT = {
+			has_country_modifier = "statesmancc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4028"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = statesmanc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = statesmancc
+			duration = 18250
+		}
+	}
+}
+
+
+# Colonial Governor
+country_event = {
+	id = 4029
+	title = "EVTNAME4029"
+	desc = "EVTDESC4029"
+	picture = ADVISOR_eventPicture
+	
+	
+	trigger = {
+		colonial_governor = 3
+		NOT = {
+			has_country_modifier = "colonial_governorcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4029"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = colonial_governorc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = colonial_governorcc
+			duration = 18250
+		}
+	}
+}
+
+
+# Spymaster
+country_event = {
+	id = 4030
+	title = "EVTNAME4030"
+	desc = "EVTDESC4030"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		spymaster = 3
+		NOT = {
+			has_country_modifier = "spymastercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4030"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = spymasterc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = spymastercc
+			duration = 18250
+		}
+	}
+}
+
+
+# Diplomat
+country_event = {
+	id = 4031
+	title = "EVTNAME4031"
+	desc = "EVTDESC4031"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		diplomat = 3
+		NOT = {
+			has_country_modifier = "diplomatcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4031"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = diplomatc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = diplomatcc
+			duration = 18250
+		}
+	}
+}
+
+# Trader
+country_event = {
+	id = 4032
+	title = "EVTNAME4032"
+	desc = "EVTDESC4032"
+	picture = ADVISOR_eventPicture
+	
+	
+	trigger = {
+		trader = 3
+		NOT = {
+			has_country_modifier = "tradercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4032"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = traderc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = tradercc
+			duration = 18250
+		}
+	}
+}
+
+# Master of Mint
+country_event = {
+	id = 4104
+	title = "EVTNAME4104"
+	desc = "EVTDESC4104"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		master_of_mint = 3
+		NOT = {
+			has_country_modifier = "master_of_mintcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4104"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = master_of_mintc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = master_of_mintcc
+			duration = 18250
+		}
+	}
+}
+
+
+# navigator
+country_event = {
+	id = 4110
+	title = "EVTNAME4110"
+	desc = "EVTDESC4110"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		navigator = 3
+		NOT = {
+			has_country_modifier = "navigatorcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4110"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = navigatorc
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = navigatorcc
+			duration = 18250
+		}
+	}
+}
+
+
+# grand_captain
+country_event = {
+	id = 4114
+	title = "EVTNAME4114"
+	desc = "EVTDESC4114"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		grand_captain = 3
+		NOT = {
+			has_country_modifier = "grand_captaincc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = grand_captainc
+			duration = 2190
+		}				
+		add_country_modifier = {
+			name = grand_captaincc
+			duration = 18250
+		}
+	}
+}
+
+
+# army_organiser
+country_event = {
+	id = 4115
+	title = "EVTNAME4115"
+	desc = "EVTDESC4115"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		army_organiser = 3
+		NOT = {
+			has_country_modifier = "army_organisercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4115"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = army_organiserc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = army_organisercc
+			duration = 18250
+		}
+	}
+}
+
+
+# commandant
+country_event = {
+	id = 4116
+	title = "EVTNAME4116"
+	desc = "EVTDESC4116"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		commandant = 3
+		NOT = {
+			has_country_modifier = "commandantcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = commandantc
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = commandantcc
+			duration = 18250
+		}
+	}
+}
+
+
+# Quartermaster
+country_event = {
+	id = 4117
+	title = "EVTNAME4117"
+	desc = "EVTDESC4117"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		quartermaster = 3
+		NOT = {
+			has_country_modifier = "quartermastercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = quartermasterc
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = quartermastercc
+			duration = 18250
+		}
+	}
+}
+
+
+# Recruitmaster
+country_event = {
+	id = 4118
+	title = "EVTNAME4118"
+	desc = "EVTDESC4118"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		recruitmaster = 3
+		NOT = {
+			has_country_modifier = "recruitmastercc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4118"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = recruitmasterc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = recruitmastercc
+			duration = 18250
+		}
+	}
+}
+
+
+# Fortification Expert
+country_event = {
+	id = 4119
+	title = "EVTNAME4119"
+	desc = "EVTDESC4119"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		fortification_expert = 3
+		NOT = {
+			has_country_modifier = "fortification_expertcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4119"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = fortification_expertc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = fortification_expertcc
+			duration = 18250
+		}
+	}
+}
+
+
+# Inquisitor
+country_event = {
+	id = 4120
+	title = "EVTNAME4120"
+	desc = "EVTDESC4120"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		inquisitor = 3
+		NOT = {
+			has_country_modifier = "inquisitorcc"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.75
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4120"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = inquisitorc
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = inquisitorcc
+			duration = 18250
+		}
+	}
+}
