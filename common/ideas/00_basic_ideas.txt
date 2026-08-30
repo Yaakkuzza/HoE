@@ -266,7 +266,7 @@ religious_ideas = {
 	category = DIP
 
 	bonus = {
-		culture_conversion_cost = -0.5
+		culture_conversion_cost = -0.2
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
@@ -276,10 +276,10 @@ religious_ideas = {
 		missionary_maintenance_cost = -0.5
 	}
 	church_attendance_duty = { 
-		manpower_in_true_faith_provinces = 0.5
+		manpower_in_true_faith_provinces = 0.3
 	}
 	divine_supremacy = {
-		global_missionary_strength = 0.05
+		global_missionary_strength = 0.02
 	}
 	devoutness = {
 		tolerance_own = 2
@@ -737,11 +737,8 @@ exploration_ideas = {
 	ai_will_do = {
 		factor = 0.1
 		modifier = {
-			factor = 1000
+			factor = 10000
 			OR = {
-				tag = CAS
-				tag = SPA
-				tag = GBR
 				tag = ENG
 			}
 		}
@@ -925,7 +922,7 @@ expansion_ideas = {
 	ai_will_do = {
 		factor = 0.1
 		modifier = {
-			factor = 1000
+			factor = 10000
 			OR = {
 				has_idea_group = exploration_ideas
 				is_colonial_nation = yes

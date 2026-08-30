@@ -232,9 +232,9 @@ NDiplomacy = {
 	AE_HRE_INTERNAL = 0.25,
 	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
 	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
-	AE_DISTANCE_BASE = 0.25, --0.75 per 100 distance
+	AE_DISTANCE_BASE = 0.1, --0.75 per 100 distance
 	AE_SAME_OVERLORD = 0.0,
-	AE_PROVINCE_CAP = 40,				-- Province development above this will not count for AE (also used for warscore cost cap)
+	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
 	AE_THREATEN_WAR = 1.0,
 	AE_PRIMITIVES = -0.75, -- less AE from primitives
 
@@ -556,7 +556,7 @@ NCountry = {
 
 	INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 5,
 	INSTITUTION_CAP_IMP_DEVELOPMENT = 10,
-	INSTITUTION_BASE_IMP_DEVELOPMENT = 40,
+	INSTITUTION_BASE_IMP_DEVELOPMENT = 20,
 
 	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
@@ -583,8 +583,8 @@ NCountry = {
 	ESTATE_DEFAULT_LOYALTY = 30,
 	ESTATE_INFLUENCE_PER_DEV = 0.5,
 	ESTATE_MAX_INFLUENCE_FROM_DEV = 100.0,
-	ESTATE_MIN_DISTRIBUTED_CROWNLAND = 30.0, 	-- Minimum of crownland when distributing land at start
-	ESTATE_CROWNLAND_INFLUENCE = 50.0,			-- Crownland has n% influence, this is modified by absolutism.
+	ESTATE_MIN_DISTRIBUTED_CROWNLAND = 20.0, 	-- Minimum of crownland when distributing land at start
+	ESTATE_CROWNLAND_INFLUENCE = 100.0,			-- Crownland has n% influence, this is modified by absolutism.
 	ESTATE_START_CROWNLAND_INFLUENCE = 20.0,	-- Crownland has n% influence at start of a new game.
 	ESTATE_CROWNLAND_FROM_DEV = 0.01,			-- How much crownland you gain from developing a province.
 
@@ -752,7 +752,7 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 2.5,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
-	PS_MAKE_PROVINCE_CORE = 15,
+	PS_MAKE_PROVINCE_CORE = 20,
 	PS_REDUCE_INFLATION = 75,
 	PS_PROMOTE_MERCANTILISM = 100,
 	PS_MOVE_CAPITAL = 200,
@@ -778,7 +778,7 @@ NCountry = {
 	PS_RAISE_WAR_TAXES = 2,	-- Monthly Cost
 	PS_WAR_TAXES_LIMIT_MIN = 0,	-- Minimum value for the cost of war taxes
 	PS_CREATE_TRADE_POST = 50,
-	PS_IMPROVE_PROVINCE_BASE = 30,
+	PS_IMPROVE_PROVINCE_BASE = 40,
 	PS_IMPROVE_PROVINCE_MUL = 0,
 	PS_IMPROVE_PROVINCE_CAPITAL_DISCOUNT = 0.05,
 	PS_SET_PRIMARY_CULTURE = 100,
@@ -900,7 +900,7 @@ NCountry = {
 	MONTHLY_LIBERTY_DECREASE = 1,					-- How much temporary liberty desire changes each month (towards 0 point)
 	LIBERTY_DESIRE_ENFORCE_PEACE = 0.1,				-- Liberty desire from Enforce Peace in vassal wars.
 	LIBERTY_DESIRE_WAR_EXHAUSTION = 1,				-- Liberty desire from overlord's war exhaustion (per WE)
-	LIBERTY_DESIRE_MERCANTILISM = 0.25,				-- Liberty desire from overlord's mercantilism (per Merc).
+	LIBERTY_DESIRE_MERCANTILISM = 0.1,				-- Liberty desire from overlord's mercantilism (per Merc).
 	LIBERTY_DESIRE_RELATIVE_POWER = 60,				-- Liberty desire from relative power to liege
 	LIBERTY_DESIRE_ADM_EFFICIENCY = 0.2,			-- Liberty desire per point of admistrative efficiency (colonies only)
 	LIBERTY_DESIRE_DIPLO_TECH = 5,					-- Liberty desire per point of diplo tech more than overlord
@@ -929,7 +929,7 @@ NCountry = {
 	MIN_LIBERTY_DESIRE_INFLUENCE = -100,			-- Min influence of a single modifier (e.g. paid of debt)
 	MAX_LIBERTY_DESIRE_INFLUENCE = 100000,			-- Max influence of a single modifier (e.g. seized province)
 
-	MAX_CROWN_COLONIES = 1,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 0,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	OVERSEAS_DISTANCE = 150,						-- Provinces beyond this distance to capital are distant overseas
 
@@ -959,7 +959,7 @@ NCountry = {
 	MONTHS_OF_RESOURCES_FOR_FAVOURS = 6,
 	RETURN_LAND_LIBERTY_MULTIPLIER = 2.5,
 	COT_DOWNGRADE_LIBERTY_DESIRE = 10,
-	CONCENTRATED_DEV_LIBERTY_DESIRE_PER_DEV = 0.5,
+	CONCENTRATED_DEV_LIBERTY_DESIRE_PER_DEV = 0.2,
 	SEIZE_TERRITORY_LIBERTY_MULTIPLIER = 1,
 	SEIZE_TERRITORY_LIBERTY_THRESHOLD = 50,
 	GRANT_PROVINCE_LIBERTY_MULTIPLIER = 0.5,
@@ -1115,7 +1115,7 @@ NCountry = {
 	FEDERATION_ADVANCEMENT_COHESION_REQUIREMENT = 100.0,
 	FEDERATION_ADVANCEMENT_COHESION_COST = 80.0,
 
-	EXPAND_INFRASTRUCTURE_DEV_LIMIT = 15, 			-- How much dev you need for each improvement.
+	EXPAND_INFRASTRUCTURE_DEV_LIMIT = 10, 			-- How much dev you need for each improvement.
 	PARLIAMENT_SCALED_MODIFIER_DEFAULT_PERCENTAGE = 0.20, -- How much the modifier is multiplied by if a country doesn't have the estate specified in the parliament issue
 },
 
@@ -1141,7 +1141,7 @@ NEconomy = {
 	TRADE_POWER_HOME_BONUS = 0.1,
 	TRADE_POWER_HOME_BONUS_MAX = 1,
 	AUTONOMY_AT_DIPLO_ANNEX = 60,					-- Autonomy added when diplo-annexing
-	AUTONOMY_AT_CONQUEST = 50,						-- Autonomy added at conquest
+	AUTONOMY_AT_CONQUEST = 60,						-- Autonomy added at conquest
 	AUTONOMY_AT_CONQUEST_CLAIM = 40,				-- Autonomy added at conquest if you have a claim
 	AUTONOMY_AT_CONQUEST_CORE = 0,					-- Autonomy added at conquest if you have a core
 	COLONY_MIN_AUTONOMY = 50,						-- Colonial cores always have at least this much autonomy
@@ -1151,9 +1151,9 @@ NEconomy = {
 	INCREASE_AUTONOMY_STEP = 25,
 	INCREASE_AUTONOMY_MAX = 91,
 	AUTONOMY_CHANGE_DURATION = 10950,			-- about 30 years
-	LAND_TECH_MAINTENANCE_IMPACT = 0.5, 			-- % each tech increases it.
-	NAVAL_TECH_MAINTENANCE_IMPACT = 0.5, 			-- % each tech increases it.
-	LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.5, 			-- % each tech increases it.
+	LAND_TECH_MAINTENANCE_IMPACT = 0.4, 			-- % each tech increases it.
+	NAVAL_TECH_MAINTENANCE_IMPACT = 0.4, 			-- % each tech increases it.
+	LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.4, 			-- % each tech increases it.
 	ADVISOR_COST = 0.5,								-- Advisor cost modifier
 	GOLD_INFLATION_THRESHOLD = 0.0,					-- _EDEF_GOLD_INFLATION_THRESHOLD_
 	GOLD_INFLATION = 0.5,							-- _EDEF_GOLD_INFLATION_
@@ -1168,17 +1168,17 @@ NEconomy = {
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 1.0,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.1,					-- _EDEF_LAND_MAINTENANCE_FACTOR
-	HEAVY_SHIP_MAINT_FACTOR = 0.05,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
-	LIGHT_SHIP_MAINT_FACTOR = 0.05,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
-	GALLEY_MAINT_FACTOR = 0.05,						-- _EDEF_GALLEY_MAINT_FACTOR_
-	TRANSPORT_MAINT_FACTOR = 0.05,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
+	LAND_MAINTENANCE_FACTOR = 0.05,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	HEAVY_SHIP_MAINT_FACTOR = 0.025,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
+	LIGHT_SHIP_MAINT_FACTOR = 0.025,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
+	GALLEY_MAINT_FACTOR = 0.025,						-- _EDEF_GALLEY_MAINT_FACTOR_
+	TRANSPORT_MAINT_FACTOR = 0.025,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 1.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
 	MISSIONARY_MAINTENANCE_FACTOR = 1.0,				-- How much a missionary costs in itself
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 50,	-- How much this is ncreased from development
 	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0,		-- How much this is ncreased from local autonomy
 	MISSIONARY_MAINTENANCE_AUTONOMY_BASE = 0,			-- The local autonomy is added to this base in the formula.
-	MISSIONARY_MAINTENANCE_DEVELOPMENT_CAP = 40,		-- Where dev will get capped by the system for calculations.
+	MISSIONARY_MAINTENANCE_DEVELOPMENT_CAP = 30,		-- Where dev will get capped by the system for calculations.
 	MERCHANT_TIME_DISTANCE = 0.25,					-- _EDEF_MERCHANT_TIME_DISTANCE_
 	MERCHANT_CHANCE = 0.35,							-- _EDEF_MERCHANT_CHANCE_
 	MERCHANT_COMPETE = 0.5,							-- _EDEF_MERCHANT_COMPETE_
@@ -1326,24 +1326,24 @@ NMilitary = {
 	CAVALRY_SPEED = 0.7, 							-- _MDEF_CAVALRY_SPEED = 10,
 	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
 
-	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
-	CAVALRY_COST = 20.0, 							-- _MDEF_CAVALRY_COST = 10,
-	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
+	INFANTRY_COST = 20.0, 							-- _MDEF_INFANTRY_COST = 10,
+	CAVALRY_COST = 40.0, 							-- _MDEF_CAVALRY_COST = 10,
+	ARTILLERY_COST = 60.0, 							-- _MDEF_ARTILLERY_COST = 10,
 	FORTRESS_COST = 0.25,							-- base fort cost
-	HEAVY_SHIP_COST = 60, 							-- _MDEF_HEAVY_SHIP_COST = 10,
-	LIGHT_SHIP_COST = 10, 							-- _MDEF_LIGHT_SHIP_COST = 10,
-	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
-	TRANSPORT_COST = 5,							-- _MDEF_TRANSPORT_COST = 10,
-	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
-	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
-	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
-	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
+	HEAVY_SHIP_COST = 120, 							-- _MDEF_HEAVY_SHIP_COST = 10,
+	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
+	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,
+	TRANSPORT_COST = 10,							-- _MDEF_TRANSPORT_COST = 10,
+	INFANTRY_TIME = 120, 							-- _MDEF_INFANTRY_TIME = 10,
+	CAVALRY_TIME = 180, 								-- _MDEF_CAVALRY_TIME = 10,
+	ARTILLERY_TIME = 240, 							-- _MDEF_ARTILLERY_TIME = 10,
+	HEAVY_SHIP_TIME = 720, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 360, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 360, 								-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 180, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
-	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
+	EXTRA_LAND_REINFORCE_COST = 0.5,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	MERCENARY_REINFORCE_COST_MULTIPLIER = -1,			-- Mercs no longer costs anything to reinfroce
 	MERCENARY_BASE_COST = 0,					-- base cost added for a mercenary regiment
 	TRADITION_GAIN_LAND = 20,						-- Tradition gain base value from land combat.
@@ -1571,7 +1571,7 @@ NMilitary = {
 	MAX_DRAFT_SIZE_TO_YEARLY_INCOME_COST_RATIO = 0.8, -- How much of your yearly income it costs to draft the above ratio's worth of units
 	DRAFTED_TRANSPORT_MEN_RATIO = 0.8, 				-- Cost in sailors of a drafted unit relative to a normal unit
 	
-	MERCENARY_COMPANY_HIRING_COST_MONTHS = 72,		-- Initial hiring cost in months of maintenance
+	MERCENARY_COMPANY_HIRING_COST_MONTHS = 24,		-- Initial hiring cost in months of maintenance
 	MERCENARY_COMPANY_STARTING_MORALE = 0.5,		-- Starting morale
 	MERCENARY_COMPANY_MIN_REGIMENTS = 2,			-- Minimum regiments
 	MERCENARY_COMPANY_MAX_REGIMENTS = 200,			-- Maximum regiments
@@ -2723,7 +2723,7 @@ NGovernment = {
 	GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 50.0,
 	GOVERNMENT_REFORM_COST_CENTRALIZE_STATE = 50.0,
 	CENTRALIZE_STATE_ADM_COST = 50,
-	EXPAND_INFRASTRUCTURE_ADM_COST = 50,
+	EXPAND_INFRASTRUCTURE_ADM_COST = 40,
 	CENTRALIZE_STATE_STATE_COST_LIMIT = 10.0,
 	CENTRALIZE_STATE_REDUCTION = 0.0,
 	CENTRALIZE_STATE_YEARS = 5,
