@@ -326,7 +326,7 @@ NDiplomacy = {
 	PEACE_COST_DEMAND_CAPITAL_MULT = 1.2,
 
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
-	PO_HUMILIATE_PRESTIGE_HIT = 20,
+	PO_HUMILIATE_PRESTIGE_HIT = 200,
 	PO_HUMILIATE_POWER_GAIN = 100,
 	PO_SPREAD_REVOLUTION_POWER_GAIN = 1.0,			-- Multiplied by the amount of development spread to
 	PO_SPREAD_REVOLUTION_MAX_POWER_GAIN = 999,		-- Total maximum power gain in each ability from spread the revolution

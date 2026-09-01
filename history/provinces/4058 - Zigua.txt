@@ -1,0 +1,18 @@
+#4058 - Zigua
+
+culture = swahili
+religion = shamanism #Fetishism
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = central_african
+discovered_by = east_african
+capital = "Zigua"
+owner = UBH
+controller = UBH
+add_core = UBH

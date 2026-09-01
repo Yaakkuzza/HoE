@@ -86,13 +86,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 224	# Andalucia
 			owns_core_province = 219	# Toledo
-			owns_core_province = 223	# Granada
-			iberia_region = {
-				type = all
-				NOT = { owner = { religion_group = muslim } }
-			}
 		}
 		effect = {
 			1750 = {
