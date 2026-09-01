@@ -57,6 +57,9 @@ difficulty_easy_player = {
 
 difficulty_normal_player = {
 	possible_condottieri = 5
+	country_admin_power = -3
+	country_diplomatic_power = -3
+	country_military_power = -3
 }
 
 difficulty_hard_player = {
@@ -2259,6 +2262,7 @@ expanded_infrastructure = {
 	province_trade_power_modifier = 0.05
 	trade_goods_size_modifier = 0.05
 	local_great_project_upgrade_cost = -0.05
+	local_development_cost = -0.1
 }
 
 centralize_state = {
