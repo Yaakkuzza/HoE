@@ -413,12 +413,10 @@ NOR_ideas = {
 	free = yes
 	
 	call_of_our_forefathers = {
-		range = 0.33
-		may_explore = yes
+		naval_morale = 0.20
 	}
 	pioneer_spirit = {
-		colonists = 1
-		effect = { remove_temporary_colonist = yes }
+		naval_morale = 0.20
 	}
 	natural_seamanship = {
 		naval_morale = 0.20		
@@ -750,9 +748,7 @@ SPA_ideas = {
 		monthly_fervor_increase = 0.5
 	}
 	inter_caetera = {
-		idea_claim_colonies = yes
-		colonists = 1
-		effect = { remove_temporary_colonist = yes }
+		global_unrest = -2
 	}
 	salamanca_scholars = {
 		global_institution_spread = 0.1
@@ -799,9 +795,7 @@ CAS_ideas = {
 		production_efficiency = 0.1
 	}
 	inter_caetera = {
-		idea_claim_colonies = yes
-		colonists = 1
-		effect = { remove_temporary_colonist = yes }
+		global_unrest = -2
 	}
 	infantas = {
 		diplomatic_reputation = 1
@@ -1616,7 +1610,7 @@ PRU_ideas = {
 		nobles_loyalty_modifier = 0.10
 	}
 	goose_step = {
-		infantry_power = 0.20
+		production_efficiency = 0.20
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.25
@@ -1737,7 +1731,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.3
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1780,7 +1774,7 @@ LIT_ideas = {
 		production_efficiency = 0.1
 	}
 	lithuanian_hussars = {
-		cavalry_power = 0.25
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	statutes_of_lithuania = {
@@ -1821,7 +1815,7 @@ LIT2_ideas = {
 		production_efficiency = 0.1
 	}
 	lithuanian_hussars = {
-		cavalry_power = 0.25
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	statutes_of_lithuania = {
@@ -1859,14 +1853,14 @@ PLC_ideas = {
 		army_tradition = 1
 	}
 	winged_hussars = { 
-		cavalry_power = 0.3
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	plc_refine_our_golden_liberty = { #Same for all of them
 		country_admin_power = 1 
 	}
 	pol_royal_guards = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	plc_tempered_by_neighbors = { #Same for all of them
 		discipline = 0.05
@@ -1904,7 +1898,7 @@ PLC_LIT_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	lithuanian_hussars = {
-		cavalry_power = 0.25
+		cavalry_power = 0.15
 		can_recruit_hussars = yes 
 	}
 	statutes_of_lithuania = {
@@ -7089,8 +7083,8 @@ WLS_ideas = {
 
 hausa_ideas = {
 	start = {
-		diplomats = 1
-		global_own_trade_power = 0.1
+		administrative_efficiency = 1
+		global_unrest = -20
 	}
 	
 	bonus = {

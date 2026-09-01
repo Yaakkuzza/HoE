@@ -2347,13 +2347,9 @@ estate_nobles_rynda = {
 		custom_tooltip = estate_nobles_rynda_at
 		custom_tooltip = SCALES_WITH_LOYALTY_TT
 	}
-	loyalty_scaled_conditional_modifier = {
+	influence_scaled_conditional_modifier = {
 		trigger = { is_monarch_leader = yes }
-		modifier = { infantry_power = 0.15 }
-	}
-	loyalty_scaled_conditional_modifier = {
-		trigger = { is_monarch_leader = no }
-		modifier = { infantry_cost = -0.2 }
+		modifier = { infantry_power = 0.1 infantry_cost = -0.1 }
 	}
 	mechanics = {  }
 	ai_will_do = {
@@ -2378,7 +2374,7 @@ estate_nobles_landed_army = {
 	}
 	influence_scaled_conditional_modifier = {
 		trigger = { always = yes }
-		modifier = { cavalry_power = 0.2 }
+		modifier = { cavalry_power = 0.1	cavalry_cost = -0.1 }
 	}
 	mechanics = {  }
 	ai_will_do = {

@@ -5,7 +5,7 @@ controller = TNT
 add_core = TNT
 culture = venetian
 religion = catholic
-hre = yes
+hre = no
 base_tax = 4 
 base_production = 3
 trade_goods = iron 
@@ -35,7 +35,7 @@ discovered_by = ottoman
 	controller = ITA
 	add_core = ITA
 	remove_core = BAV
-} # Incorporated into the Kingdom of Italy after the treaty of Schönbrunn
+} # Incorporated into the Kingdom of Italy after the treaty of Schï¿½nbrunn
 1814.4.11 = {	owner = HAB
 	controller = HAB
 	add_core = HAB

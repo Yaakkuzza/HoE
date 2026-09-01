@@ -1,8 +1,6 @@
 # No previous file for Mississage
 
-owner = MSG
-controller = MSG
-add_core = MSG
+tribal_owner = 
 culture = anishinabe
 religion = totemism
 capital = "Missisage"

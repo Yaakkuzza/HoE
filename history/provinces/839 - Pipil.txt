@@ -1,9 +1,6 @@
 #839 - Pipil
 
-owner = CHT
-controller = CHT
-add_core = CHT
-is_city = yes
+
 culture = highland_mayan 
 religion = mesoamerican_religion
 capital = "Pipil" 

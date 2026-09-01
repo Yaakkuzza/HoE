@@ -36,29 +36,12 @@ french_missions_1 = {
 					share = -5
 				}
 			} 
-			brittany_area = { 
-				limit = { 	
-					NOT = { is_core = ROOT } 
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					NOT = { owned_by = ROOT } 
+			france_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				add_permanent_claim = ROOT 
-			}
-			bourgogne_area = {
-				limit = { 	
-					NOT = { is_core = ROOT } 
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					NOT = { owned_by = ROOT } 
-				}
-				add_permanent_claim = ROOT 
-			}
-			west_burgundy_area = { 
-				limit = { 	
-					NOT = { is_core = ROOT } 
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-					NOT = { owned_by = ROOT } 
-				}
-				add_permanent_claim = ROOT 
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -3297,7 +3280,7 @@ french_missions_3_normal_continued = {
 		}
 		effect = {
 			1272 = { change_province_name = "La Manche" }
-			1269 = { change_province_name = "Basse-Côte" }
+			1269 = { change_province_name = "Basse-Cï¿½te" }
 			add_country_modifier = {
 				name = fra_channel_dominance_modifier
 				duration = -1 

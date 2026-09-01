@@ -1,9 +1,6 @@
 # No previous file for Yazoo
 
-owner = QUI
-controller = QUI
-add_core = QUI
-is_city = yes
+
 culture = natchez
 religion = totemism
 capital = "Yazoo"
@@ -15,7 +12,7 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-
+tribal_owner = 
 
 
 discovered_by = north_american

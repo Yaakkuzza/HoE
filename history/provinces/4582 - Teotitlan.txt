@@ -1,10 +1,7 @@
 # No previous file for Teotitlan
 
 culture = aztek
-owner = TEO
-controller = TEO
-add_core = TEO
-is_city = yes
+
 religion = nahuatl
 capital = "Teotitlan"
 trade_goods = dyes

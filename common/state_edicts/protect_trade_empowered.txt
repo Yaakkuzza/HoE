@@ -11,7 +11,7 @@ protect_trade_empowered = {
 	}
 	
 	modifier = {
-		province_trade_power_modifier = 0.75
+		province_trade_power_modifier = 1
 	}
 	
 	color = {  113 11 43 }

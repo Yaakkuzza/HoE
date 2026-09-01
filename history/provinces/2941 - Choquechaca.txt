@@ -1,8 +1,6 @@
 # - Choquechaca
 
-owner = CRA
-controller = CRA
-add_core = CRA
+
 culture = aimara
 
 
@@ -17,7 +15,7 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
-is_city = yes
+
 
 1476.1.1 = {
 	owner = INC

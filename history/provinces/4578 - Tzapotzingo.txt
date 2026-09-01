@@ -2,10 +2,7 @@
 
 culture = tepic
 religion = nahuatl
-owner = XAL
-controller = XAL
-add_core = XAL
-is_city = yes
+
 capital = "Tzapotzingo"
 trade_goods = wool
 hre = no

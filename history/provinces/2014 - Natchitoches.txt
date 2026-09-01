@@ -1,9 +1,6 @@
 #2014 - Natchitoches
 
-owner = NTC
-controller = NTC
-add_core = NTC
-is_city = yes
+tribal_owner = 
 culture = caddo
 religion = totemism
 capital = "Natchitoches"

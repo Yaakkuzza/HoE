@@ -2,8 +2,8 @@
 merc_lombard_free_company = {
     regiments_per_development = 0.04
     home_province = 4728 # Pavia
-	cavalry_weight = 0.2
-	cavalry_cap = 4
+	cavalry_weight = 0.0
+	cavalry_cap = 0
 	sprites = { dlc056_mlo_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -43,8 +43,8 @@ merc_lombard_free_company = {
 merc_tuscan_free_company = {
     regiments_per_development = 0.04
     home_province = 2980 # Lucca
-	cavalry_weight = 0.2
-	cavalry_cap = 4
+	cavalry_weight = 0.0
+	cavalry_cap = 0
 	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -84,9 +84,9 @@ merc_tuscan_free_company = {
 merc_black_army = {
 	regiments_per_development = 0.04
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-	cavalry_weight = 0.2
-    artillery_weight = 0.4
-	cavalry_cap = 4
+	cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
 	home_province = 153
 	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
     trigger = {
@@ -112,9 +112,9 @@ merc_black_army = {
 merc_black_army_2 = {
 	regiments_per_development = 0.04
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-	cavalry_weight = 0.2
-    artillery_weight = 0.4
-	cavalry_cap = 4
+	cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
 	home_province = 153
 	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
     trigger = {
@@ -135,7 +135,7 @@ merc_knights_templar = {
 	regiments_per_development = 0.01
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
 	home_province = 379
-	cavalry_weight = 0.5
+	cavalry_weight = 1.0
 	sprites = { dlc040_kni_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -148,6 +148,7 @@ merc_knights_templar = {
 	modifier = {
 		cavalry_power = 0.15
 		shock_damage = 0.05
+		cav_to_inf_ratio = 1
 	}
 	cost_modifier = 0.5
 }
@@ -178,7 +179,7 @@ merc_swiss_guard = {
 merc_bande_nere = {
     regiments_per_development = 0.05
     home_province = 2978 # Florence
-	artillery_weight = 0.3
+	artillery_weight = 0.0
 	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -205,7 +206,7 @@ merc_bande_nere = {
 merc_schwarze_garde = {
     regiments_per_development = 0.05
     home_province = 61 # Dresden
-	artillery_weight = 0.3
+	artillery_weight = 0.0
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -234,7 +235,7 @@ merc_schwarze_garde = {
 merc_doppelsoeldner = {
     regiments_per_development = 0.02
     home_province = 70 # Stuttgart
-	artillery_weight = 0.3
+	artillery_weight = 0.0
     cost_modifier = 1.25
 	sprites = { dlc061_wur_sprite_pack dlc028_wur_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -262,7 +263,7 @@ merc_doppelsoeldner = {
 merc_reislaufer = {
     regiments_per_development = 0.025
     home_province = 165 # 
-	artillery_weight = 0.3
+	artillery_weight = 0.0
 	sprites = {  dlc103_swi_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -291,9 +292,9 @@ merc_reislaufer = {
 # Hessian Jaegerkorps (Hesse, Absolutism + Revolution)
 merc_hessian_jaegerkorps = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
 	cost_modifier = 1.5
     home_province = 1762
 	sprites = { dlc137_NSA_sprite_pack dlc028_hes_sprite_pack westerngfx_sprite_pack }
@@ -366,9 +367,9 @@ merc_bascoli = {
 # Levends (Dalmatia)
 merc_levends = {
     regiments_per_development = 0.025
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 4754
 	sprites = { easterngfx_sprite_pack }
     trigger = {
@@ -398,9 +399,9 @@ merc_stratioti = {
 # Morlachs (Lika)
 merc_morlachs = {
     regiments_per_development = 0.025
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 1826
 	sprites = { dlc137_CRO_sprite_pack easterngfx_sprite_pack }
     trigger = {
@@ -419,9 +420,9 @@ merc_morlachs = {
 # Guardia Corsa (Cosica)
 merc_guardia_corsa = {
     regiments_per_development = 0.025
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 1247
 	sprites = { sav_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -437,9 +438,9 @@ merc_guardia_corsa = {
 # Hadjduks (Transylvania)
 merc_hadjuks = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 4128
     cost_modifier = 0.75
 	sprites = { dlc102_wal_sprite_pack  easterngfx_sprite_pack }
@@ -465,9 +466,9 @@ merc_hadjuks = {
 # Gallowglasses (Ireland, Renaissance + Reformation)
 merc_gallowglasses = {
     regiments_per_development = 0.025
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 4380
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -524,9 +525,9 @@ merc_redshanks = {
 # Scottish Guard (Scotland, Absolutism + Revolution)
 merc_scottish_guard = {
     regiments_per_development = 0.03
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 252
 	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -618,9 +619,9 @@ merc_white_company = {
 
 merc_flemish_company = {
     regiments_per_development = 0.04
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 90
 	sprites = { dlc042_ned_sprite_pack dlc028_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -726,9 +727,9 @@ merc_bandeirantes = {
 # Huai Army (China, Anhui, Huai River)
 merc_huai_army = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 688
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
@@ -753,9 +754,9 @@ merc_huai_army = {
 # Xiang Army (China, Hunan, Xiang River)
 merc_xiang_army = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 2174
 	sprites = { dlc120_WUU_sprite_pack dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
@@ -780,9 +781,9 @@ merc_xiang_army = {
 # Lang Bing/Wolf Troops (Guangxi)
 merc_wolf_troops = {
     regiments_per_development = 0.025
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
 	cost_modifier = 1.2
     home_province = 2164
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
@@ -805,9 +806,9 @@ merc_wolf_troops = {
 # Mercenaries from Shanxi
 merc_shanxi_guard = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 2177
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
@@ -826,9 +827,9 @@ merc_shanxi_guard = {
 # Mercenaries from Yongning, where the She-An Rebellion started
 merc_yongning_warriors = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 4213
 	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
     trigger = {
@@ -887,7 +888,7 @@ merc_shikoku_yojimbo = {
 
 merc_purbiyas = {
     regiments_per_development = 0.04
-	artillery_weight = 0.3
+	artillery_weight = 0.0
     home_province = 555
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
@@ -900,7 +901,7 @@ merc_purbiyas = {
 # Gurkhas
 merc_gorkhalis = {
     regiments_per_development = 0.025
-	artillery_weight = 0.1
+	artillery_weight = 0.0
     home_province = 4485
     cost_modifier = 1.5
 	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
@@ -923,9 +924,9 @@ merc_gorkhalis = {
 # Gosains
 merc_gosains = {
     regiments_per_development = 0.03
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
 	cost_modifier = 1.2
     home_province = 523
 	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
@@ -944,9 +945,9 @@ merc_gosains = {
 # Tamil Company
 merc_tamil_company = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 2085 # Tiruchirappalli
 	sprites = { dlc024_vij_sprite_pack vij_base_sprite_pack }
     trigger = {
@@ -981,9 +982,9 @@ merc_company_of_the_ganges = {
 # Banjaras
 merc_banjara_company = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
 	home_province = 514
 	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
     trigger = {
@@ -996,9 +997,9 @@ merc_banjara_company = {
 # Bukhara Band
 merc_bukhara_band = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+	cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
 	home_province = 442
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
     trigger = {
@@ -1018,9 +1019,8 @@ merc_bukhara_band = {
 # Mesopotamian Mamluks
 merc_mesopotamian_mamluks = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    cavalry_weight = 1.0
+    artillery_weight = 0.0
 	home_province = 410
 	cost_modifier = 1.1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
@@ -1041,15 +1041,15 @@ merc_mesopotamian_mamluks = {
 	}
     modifier = {
         cavalry_shock = 1.0
+		cav_to_inf_ratio = 1
     }
 }
 
 # Nile Mamluks
 merc_nile_mamluks = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    cavalry_weight = 1.0
+    artillery_weight = 0.0
     home_province = 361
 	cost_modifier = 1.5
 	sprites = { dlc002_mam_sprite_pack dlc058_mam_sprite_pack muslimgfx_sprite_pack }
@@ -1069,14 +1069,15 @@ merc_nile_mamluks = {
     modifier = {
         cavalry_power = 0.1
         discipline = 0.025
+		cav_to_inf_ratio = 1
     }
 }
 
 merc_delhi_mamluks = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 522
 	sprites = { dlh_base_sprite_pack }
     trigger = {
@@ -1123,7 +1124,7 @@ merc_sekban = {
 
 merc_zanj_company = {
     regiments_per_development = 0.05
-    artillery_weight = 0.2
+    artillery_weight = 0.0
     home_province = 1199
 	sprites = { dlc057_zan_sprite_pack africangfx_sprite_pack }
     trigger = {
@@ -1147,7 +1148,7 @@ merc_zanj_company = {
 
 merc_madagascar_company = {
     regiments_per_development = 0.05
-    artillery_weight = 0.2
+    artillery_weight = 0.0
     home_province = 1792
 	sprites = { africangfx_sprite_pack }
     trigger = {
@@ -1174,7 +1175,7 @@ merc_madagascar_company = {
 
 merc_sahel_company = {
     regiments_per_development = 0.05
-    artillery_weight = 0.2
+    artillery_weight = 0.0
     home_province = 1132
 	cost_modifier = 1.1
 	sprites = { dlc062_tmb_sprite_pack africangfx_sprite_pack }
@@ -1197,8 +1198,8 @@ merc_sahel_company = {
 merc_asafo_company = {
     regiments_per_development = 0.05
     cavalry_weight = 0
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 2255
 	cost_modifier = 1.1
 	sprites = { dlc062_msi_sprite_pack africangfx_sprite_pack }
@@ -1218,7 +1219,7 @@ merc_asafo_company = {
 
 merc_nubian_company = {
     regiments_per_development = 0.05
-    artillery_weight = 0.2
+    artillery_weight = 0.0
     home_province = 2798
 	sprites = { dlc057_nub_sprite_pack africangfx_sprite_pack }
     trigger = {
@@ -1245,7 +1246,7 @@ merc_nubian_company = {
 
 merc_tonkinese_army = {
     regiments_per_development = 0.05
-    artillery_weight = 0.2
+    artillery_weight = 0.0
     home_province = 2372
 	sprites = { dlc041_dai_sprite_pack dlc090_south_east_asian_elephant_sprite_pack asiangfx_sprite_pack }
 	cost_modifier = 1.1
@@ -1273,9 +1274,8 @@ merc_tonkinese_army = {
 
 merc_mongol_mercenaries = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.1
-	cavalry_cap = 6
+    cavalry_weight = 1.0
+    artillery_weight = 0.0
 	home_province = 4678
 	cost_modifier = 1.5
 	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
@@ -1304,6 +1304,7 @@ merc_mongol_mercenaries = {
 	}
     modifier = {
         cavalry_power = 0.2
+		cav_to_inf_ratio = 1
     }
 }
 
@@ -1335,9 +1336,9 @@ merc_royal_circassian_guards = {
 
 merc_bedouin_auxiliaries = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
-    artillery_weight = 0.1
-	cavalry_cap = 6
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 383 # Tabuk
 	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
     trigger = {
@@ -1516,7 +1517,7 @@ merc_frisian_free_company = {
 
 merc_finnish_company = {
     regiments_per_development = 0.04
-    artillery_weight = 0.1
+    artillery_weight = 0.0
     home_province = 28 # Nyland
 	sprites = { dlc116_FIN_sprite_pack dlc054_swe_sprite_pack dlc028_swe_sprite_pack swe_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
@@ -1681,9 +1682,9 @@ merc_free_company_of_volunteers = {
 merc_crabats = {
     regiments_per_development = 0.025
     home_province = 131 # Zagreb
-    cavalry_weight = 0.4
-    artillery_weight = 0.1
-	cavalry_cap = 6
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
 	sprites = { dlc137_CRO_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -1733,7 +1734,7 @@ merc_colonial_rangers = {
     regiments_per_development = 0.025
     home_province = 2569 # Eskikewakik, eventually Halifax, Nova Scotia
     cost_modifier = 1.25
-	artillery_weight = 0.1
+	artillery_weight = 0.0
 	sprites = { dlc016_eng_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes 
@@ -1764,9 +1765,9 @@ merc_colonial_rangers = {
 merc_independent_cossack_host = {
     regiments_per_development = 0.05
     home_province = 283 # Zaporozhia
-	cavalry_weight = 0.4 # lots of cavalry relative to other units
+	cavalry_weight = 0.
 	artillery_weight = 0 # no artillery
-	cavalry_cap = 6
+	cavalry_cap = 0
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -1789,8 +1790,8 @@ merc_independent_cossack_host = {
 merc_kazakh_company = {
     regiments_per_development = 0.05
     home_province = 478 # Argyn
-	cavalry_weight = 0.4
-	cavalry_cap = 6
+	cavalry_weight = 0.0
+	cavalry_cap = 0
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -2038,9 +2039,9 @@ merc_silver_company = {
 
 merc_dahomey_amazons = {
     regiments_per_development = 0.025
-    cavalry_weight = 0.1
-    artillery_weight = 0.2
-	cavalry_cap = 2
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 1140
 	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
     trigger = {
@@ -2105,9 +2106,8 @@ merc_tyrolean_guard = {
 merc_mongol_banner = {
     regiments_per_development = 0.05
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-	cavalry_weight = 0.4
-    artillery_weight = 0.2
-	cavalry_cap = 6
+	cavalry_weight = 1.0
+    artillery_weight = 0.0
 	home_province = 718
 	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
     trigger = {
@@ -2126,6 +2126,7 @@ merc_mongol_banner = {
 	cost_modifier = 1.1
 	modifier = {
         cavalry_shock =1.0
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2148,9 +2149,9 @@ merc_swiss_canton_mercenaries = {
 merc_japanese_volunteers = {
     regiments_per_development = 0.02
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-	cavalry_weight = 0.1
-	artillery_weight = 0.3
-	cavalry_cap = 2
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 600
 	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
     trigger = {
@@ -2166,9 +2167,9 @@ merc_japanese_volunteers = {
 merc_militant_order_of_saint_joan = {
     regiments_per_development = 0.025
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-    cavalry_weight = 0.1
-    artillery_weight = 0.2
-	cavalry_cap = 2
+    cavalry_weight = 0.0
+    artillery_weight = 0.0
+	cavalry_cap = 0
     home_province = 184
 	cost_modifier = 0.5
 	sprites = { dlc120_CHP_sprite_pack dlc001_orl_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
@@ -2257,7 +2258,7 @@ merc_zim_butua_warriors = {
 merc_aju_mamluk_soldiers = {
 	regiments_per_development = 0.03
 	cost_modifier = 0.75
-	cavalry_weight = 0.25
+	cavalry_weight = 1.0
 	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		is_allowed_to_recruit_mercenaries = yes
@@ -2278,6 +2279,7 @@ merc_aju_mamluk_soldiers = {
 	}
     modifier = {
 		cavalry_power = 0.1
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2320,6 +2322,7 @@ merc_hakkapeliita_cavalry = {
 		cavalry_shock = 1 
 		cav_to_inf_ratio = 1 
 		movement_speed = 0.25
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2340,6 +2343,7 @@ merc_large_hakkapeliita_cavalry = {
 		cav_to_inf_ratio = 1
 		cavalry_shock = 1 
 		movement_speed = 0.25
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2360,6 +2364,7 @@ merc_guerilla_hakkapeliita_cavalry = {
 		cav_to_inf_ratio = 1
 		cavalry_shock = 1 
 		movement_speed = 0.33
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2381,6 +2386,7 @@ merc_elite_hakkapeliita_cavalry = {
 		cavalry_shock = 1 
 		cavalry_fire = 1
 		movement_speed = 0.25
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2433,8 +2439,6 @@ merc_tatar_vanguard = {
 		loot_amount = 0.5
 		cav_to_inf_ratio = 1
 	}
-	min_size = 4
-	max_size = 20
 	manpower_pool = 50
 }
 
@@ -2473,8 +2477,6 @@ merc_byz_turkish_janissaries = {
 
 merc_byz_varangian_guard = {
     regiments_per_development = 0.02 #1 regiment every 50 dev. Reaches max at 400 dev.
-	max_size = 8
-	min_size = 8
 	no_additional_manpower_from_max_size = yes
     home_province = 151 # Constantinople
 	cavalry_weight = 0 #Pure infantry
@@ -2494,8 +2496,6 @@ merc_byz_varangian_guard = {
 
 merc_byz_palace_guard = {
     regiments_per_development = 0.01
-	max_size = 5 
-	min_size = 5
 	no_additional_manpower_from_max_size = yes
 	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
 	cost_modifier = 1.25
@@ -2514,7 +2514,6 @@ merc_byz_palace_guard = {
 
 wandering_knights_of_rhodes = {
     regiments_per_development = 0.03 #1 regiment every 10 dev. Reaches max at 100.
-	max_size = 40
 	cost_modifier = 1
 	counts_towards_force_limit = no 
     home_province = 320 # Rhodes
@@ -2554,7 +2553,7 @@ merc_ita_lost_legions = {
     regiments_per_development = 0.04
     home_province = 2972 # Paderborn
 	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
-	cavalry_weight = 0.1
+	cavalry_weight = 0.0
 	cavalry_cap = 0 
 	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
     trigger = {
@@ -2590,7 +2589,6 @@ merc_inc_chanka = {
     regiments_per_development = 0.05
 	cavalry_weight = 0
 	cavalry_cap = 0 
-	max_size = 6
 	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
 	cost_modifier = 1.25
 	counts_towards_force_limit = no 
@@ -2609,7 +2607,6 @@ merc_may_chontals = {
     regiments_per_development = 0.05
 	cavalry_weight = 0
 	cavalry_cap = 0 
-	max_size = 10
 	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
 	counts_towards_force_limit = no 
 	cost_modifier = 1.33
@@ -2626,7 +2623,7 @@ merc_may_chontals = {
 
 merc_lisowczyk = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.75
+	cavalry_weight = 1.0
 	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
 	cost_modifier = 1.25
 	counts_towards_force_limit = no
@@ -2638,6 +2635,7 @@ merc_lisowczyk = {
 	modifier = { 
 		cavalry_power = 0.1
 		shock_damage = 0.1
+		cav_to_inf_ratio = 1
 	}
 }
 
@@ -2660,7 +2658,7 @@ merc_mug_elite_gurkhas = {
 
 merc_keshig = {
     regiments_per_development = 0.05
-	cavalry_weight = 0.75
+	cavalry_weight = 1.0
 	mercenary_desc_key = FREE_OF_FORCELIMIT_COST
 	cost_modifier = 1
 	counts_towards_force_limit = no
@@ -2672,6 +2670,7 @@ merc_keshig = {
 	modifier = { 
 		cavalry_fire = 0.5
 		fire_damage_received = -0.15
+		cav_to_inf_ratio = 1
 	}
 }
 

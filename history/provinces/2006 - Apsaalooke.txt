@@ -1,9 +1,9 @@
 #2006 - Apsáalooke
 
-culture = blackfoot
+culture = shoshone
 religion = totemism
 capital = "Apsáalooke"
-trade_goods = fur
+trade_goods = unknown 
 hre = no
 base_tax = 1 
 base_production = 1
@@ -18,9 +18,15 @@ discovered_by = north_american
 
 
 1710.1.1 = {
-	owner = ---
+	#owner = ---
 	controller = ---
 	is_city = no
 	remove_core = COM 
 } #Horses cause waves of migration on the Great Plains
-
+1810.1.1 = {
+	#owner = BLA
+	controller = BLA
+	add_core = BLA
+	culture = blackfoot
+	is_city = yes 
+} #Lakota pushes west across the Missouri

@@ -1,0 +1,3 @@
+on_monthly_pulse = {
+	mp_trade_dominance_check_effect = yes
+}

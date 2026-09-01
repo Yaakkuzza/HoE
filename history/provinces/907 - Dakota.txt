@@ -1,9 +1,6 @@
 #907 - Dakota
 
-add_core = LAK
-owner = LAK
-controller = LAK
-is_city = yes
+
 culture = dakota
 religion = totemism
 capital = "Dakota"

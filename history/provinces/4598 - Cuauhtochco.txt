@@ -1,10 +1,7 @@
 # No previous file for Cuauhtochco
 
 culture = totonac
-owner = TOT
-controller = TOT
-add_core = TOT
-is_city = yes
+
 religion = nahuatl
 capital = "Cuauhtochco"
 trade_goods = sugar

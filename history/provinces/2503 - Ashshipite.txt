@@ -1,9 +1,6 @@
 # No previous file for Ashshipite
 
-owner = KIO
-controller = KIO
-add_core = KIO
-is_city = yes
+
 culture = kiowa
 religion = totemism
 capital = "Ashshipite"

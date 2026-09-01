@@ -1,7 +1,7 @@
 #4147 - Rostov (includes Uglich)
 
-owner = RSO
-controller = RSO  
+owner = MOS
+controller = MOS  
 culture = russian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = grain
 base_manpower = 2
 capital = "Rostov"
 is_city = yes
-add_core = RSO
+add_core = MOS
 #add_core = MOS #Owns half of this province already
 discovered_by = eastern
 discovered_by = western

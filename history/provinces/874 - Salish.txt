@@ -1,9 +1,5 @@
 #874 - Salish
 
-owner = SAL
-controller = SAL
-add_core = SAL
-is_city = yes
 culture = salish
 religion = totemism
 capital = "Salish"

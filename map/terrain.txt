@@ -47,8 +47,8 @@ categories =  {
 
 		defence = 1
 		movement_cost = 1.25
-		supply_limit = 2		
-		local_development_cost = 0.5
+		supply_limit = 13		
+		local_development_cost_modifier = 0.5
 		nation_designer_cost_multiplier = 0.75		
 		
 		terrain_override = {		
@@ -63,9 +63,7 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.10
-		local_development_cost = -0.05
-		supply_limit = 10
-		allowed_num_of_buildings = 1
+		supply_limit = 20
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
@@ -142,8 +140,8 @@ categories =  {
 		
 		movement_cost = 1.25
 		defence = 1
-		supply_limit = 4
-		local_development_cost = 0.2
+		supply_limit = 16
+		local_development_cost_modifier = 0.2
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = { 
@@ -170,9 +168,9 @@ categories =  {
 		movement_cost = 1.40
 		defence = 1
 		local_defensiveness = 0.1
-		local_development_cost = 0.25
+		local_development_cost_modifier = 0.30
 		nation_designer_cost_multiplier = 0.85
-		supply_limit = 5
+		supply_limit = 15
 		
 		terrain_override = {
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
@@ -240,9 +238,9 @@ categories =  {
 
 		movement_cost = 1.10
 		defence = 1
-		local_development_cost = 0.15
+		local_development_cost_modifier = 0.15
 		nation_designer_cost_multiplier = 0.9
-		supply_limit = 6
+		supply_limit = 17
 		
 		terrain_override = {
 			206 1851 # Spain
@@ -310,9 +308,9 @@ categories =  {
 		movement_cost = 1.5
 		defence = 2
 		local_defensiveness = 0.25
-		local_development_cost = 0.35
+		local_development_cost_modifier = 0.5
 		nation_designer_cost_multiplier = 0.75
-		supply_limit = 4
+		supply_limit = 13
 		
 		terrain_override = {
 			210	226 # Spain
@@ -380,7 +378,7 @@ categories =  {
 
 		movement_cost = 8.0
 		defence = 6
-		local_development_cost = 10		
+		local_development_cost_modifier = 5		
 	}
 
 	grasslands = {
@@ -390,8 +388,8 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.0
-		supply_limit = 8
-		allowed_num_of_buildings = 1
+		local_development_cost_modifier = 0.05
+		supply_limit = 19
 		nation_designer_cost_multiplier = 1
 		
 		terrain_override = {
@@ -452,9 +450,9 @@ categories =  {
 
 		movement_cost = 1.5
 		defence = 1
-		local_development_cost = 0.35
+		local_development_cost_modifier = 0.4
 		nation_designer_cost_multiplier = 0.8
-		supply_limit = 5
+		supply_limit = 14
 		
 		terrain_override = {
 			1237 1245 2703 #South East Asia
@@ -494,9 +492,9 @@ categories =  {
 
 		movement_cost = 1.3
 		defence = 1
-		local_development_cost = 0.25
+		local_development_cost_modifier = 0.3
 		nation_designer_cost_multiplier = 0.85
-		supply_limit = 5
+		supply_limit = 15
 
 		terrain_override = {
 			1860 #England
@@ -526,8 +524,8 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.05
-		supply_limit = 4
-		local_development_cost = 0.50
+		supply_limit = 13
+		local_development_cost_modifier = 0.5
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = {
@@ -555,9 +553,9 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.0
-		local_development_cost = 0.35
+		local_development_cost_modifier = 0.4
 		nation_designer_cost_multiplier = 0.9		
-		supply_limit = 4
+		supply_limit = 14
 
 		terrain_override = {
 			792 793 796 805 806 2821 2822 2840 2841
@@ -583,9 +581,9 @@ categories =  {
 		sound_type = sea
 
 		movement_cost = 1.0
-		local_development_cost = 0.15
+		local_development_cost_modifier = 0.15
 		nation_designer_cost_multiplier = 0.85		
-		supply_limit = 6 
+		supply_limit = 17
 		
 		terrain_override = {
 			957 962 2554 2561 2578 #n am
@@ -620,10 +618,9 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.00
-		local_development_cost = 0.05
+		local_development_cost_modifier = 0.1
 		nation_designer_cost_multiplier = 0.95
-		supply_limit = 7
-		allowed_num_of_buildings = 1
+		supply_limit = 18
 
 		terrain_override = {
 			1749 224
@@ -667,11 +664,11 @@ categories =  {
 		type = hills
 		sound_type = mountains
 		
-		supply_limit = 6
+		supply_limit = 16
 		movement_cost = 1.40
 		defence = 1
 		local_defensiveness = 0.1
-		local_development_cost = 0.2
+		local_development_cost_modifier = 0.2
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
@@ -718,9 +715,9 @@ categories =  {
 		sound_type = plains
 		type = plains
 
-		supply_limit = 6
+		supply_limit = 17
 		movement_cost = 1.00
-		local_development_cost = 0.15
+		local_development_cost_modifier = 0.15
 		nation_designer_cost_multiplier = 0.95	
 		
 		terrain_override = {
@@ -757,9 +754,9 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.00
-		local_development_cost = 0.20
+		local_development_cost_modifier = 0.2
 		nation_designer_cost_multiplier = 0.9	
-		supply_limit = 6
+		supply_limit = 16
 		
 		terrain_override = {
 			2195 463 2197 2417 466 2367 470 472 2353 2369 2358 476 2354 479 2357 1966 2420

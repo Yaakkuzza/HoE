@@ -1,9 +1,6 @@
 # No previous file for Hitchiti
 
-owner = ICH
-controller = ICH
-add_core = ICH
-is_city = yes
+
 culture = yamasee
 religion = totemism
 capital = "Hitchiti"
@@ -15,7 +12,7 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-
+tribal_owner = 
 
 
 discovered_by = north_american

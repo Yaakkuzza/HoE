@@ -9,7 +9,7 @@ french_infrastructure_network = {
 	allow = { }
 	
 	modifier = {
-		local_friendly_movement_speed = 0.2
+		local_friendly_movement_speed = 0.25
 	}
 	
 	color = { 51 93 159 }

@@ -1,12 +1,10 @@
 # - Ayaviri
 
-owner = CSU
-controller = CSU
-add_core = CSU
+
 culture = aimara
 religion = inti
 capital = "Ayaviri"
-is_city = yes
+
 trade_goods = wool
 hre = no
 base_tax = 3 

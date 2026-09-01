@@ -1,8 +1,6 @@
 #901 - Pawnee
 
-add_core = PAW
-owner = PAW
-controller = PAW
+
 culture = pawnee
 religion = totemism
 capital = "Pawnee"
@@ -10,7 +8,7 @@ trade_goods = grain
 hre = no
 base_tax = 2 
 base_production = 1
-is_city = yes
+
 base_manpower = 1
 native_size = 25
 native_ferocity = 2

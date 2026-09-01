@@ -1,10 +1,7 @@
 # No previous file for Tepeacac
 
 culture = aztek
-owner = TEO
-controller = TEO
-add_core = TEO
-is_city = yes
+
 religion = nahuatl
 capital = "Tepeacac"
 trade_goods = grain

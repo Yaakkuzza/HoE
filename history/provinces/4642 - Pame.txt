@@ -1,10 +1,5 @@
 # No previous file for Pame
 
-#owner = CCM
-#controller = CCM
-#add_core = CCM
-#is_city = yes
-tribal_owner = CCM
 culture = chichimecan 
 religion = animism
 capital = "Pame" 

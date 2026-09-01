@@ -1,8 +1,5 @@
 #817 - Cuenca
 
-owner = QTO
-controller = QTO
-add_core = QTO
 culture = cara
 
 
@@ -12,8 +9,7 @@ discovered_by = andean
 
 religion = inti
 capital = "Surampalli"
-is_city = yes
-trade_goods = wool
+trade_goods = unknown
 hre = no
 base_tax = 3 
 base_production = 3

@@ -83,7 +83,7 @@ workshop = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_production_efficiency = 0.5
+		local_production_efficiency = 0.4
 	}
 	on_built = {
 		add_development_from_building = {
@@ -105,7 +105,7 @@ workshop = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -249,7 +249,7 @@ temple = {
 	on_obsolete = {
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -366,7 +366,7 @@ barracks = {
 #	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}
 }
 
@@ -377,7 +377,7 @@ shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -405,15 +405,7 @@ shipyard = {
 	}
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5 # bit more likely if close to the naval force limit
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
+		factor = 0.5
 	}
 }
 
@@ -619,7 +611,6 @@ courthouse = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
 		local_governing_cost = -0.25
 		allowed_num_of_buildings = 1
@@ -762,51 +753,7 @@ dock = {
 	}
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			current_age = age_of_discovery 
-			owner = { NOT = { navy_size = 25 } }
-			factor = 0.25
-		}
-		modifier = {
-			current_age = age_of_reformation
-			owner = { NOT = { navy_size = 50 } }
-			factor = 0.35
-		}
-		modifier = {
-			current_age = age_of_absolutism
-			owner = { NOT = { navy_size = 75 } }
-			factor = 0.5
-		}
-		modifier = {
-			current_age = age_of_revolutions 
-			owner = { NOT = { navy_size = 100 } }
-			factor = 0.75
-		}
-		modifier = {
-			owner = {
-				OR = {
-					full_idea_group = naval_ideas
-					has_idea_group = maritime_ideas
-				}
-			}
-			factor = 1.25
-		}
-		modifier = {
-			owner = {
-				capital_scope = { 
-					has_port = yes 
-					is_island = yes 
-				}
-			}
-			factor = 1.35
-		}
-		modifier = {
-			owner = {
-				sailors_percentage = 0.75 
-			}
-			factor = 0
-		}
+		factor = 0.5
 	}
 }
 
@@ -814,7 +761,7 @@ regimental_camp = {
 	cost = 200
 	time = 12
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1087,8 +1034,7 @@ cathedral = {
 	cost = 300
 	time = 12
 	modifier = {
-		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
+		local_tax_modifier = 0.8
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
@@ -1222,16 +1168,16 @@ cathedral = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
 
 university = {
-	cost = 300
+	cost = 200
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost_modifier = -0.1
 		allowed_num_of_buildings = 1
 	}
 
@@ -1320,7 +1266,7 @@ university = {
 }
 
 trade_depot = {
-	cost = 300
+	cost = 200
 	time = 12
 
 	make_obsolete = marketplace
@@ -1363,7 +1309,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
+		naval_forcelimit = 2
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes
@@ -1394,15 +1340,7 @@ grand_shipyard = {
 	}
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5 # bit more likely if close to the force limit
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
+		factor = 0.5
 	}
 }
 
@@ -1525,7 +1463,7 @@ training_fields = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}
 }
 
@@ -1682,13 +1620,13 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 400
+	cost = 300
 	time = 12
 
 	make_obsolete = trade_depot
 
 	modifier = {
-		province_trade_power_modifier = 1.25
+		province_trade_power_modifier = 1.5
 	}
 
 	on_built = {
@@ -1740,12 +1678,12 @@ stock_exchange = {
 }
 
 counting_house = {
-	cost = 400
+	cost = 300
 	time = 12
 
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 1
+		local_production_efficiency = 0.8
 	}
 
 	on_built = {
@@ -1770,7 +1708,7 @@ counting_house = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -1784,7 +1722,6 @@ town_hall = {
 	make_obsolete = courthouse
 
 	modifier = {
-		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 		local_governing_cost = -0.5
 		allowed_num_of_buildings = 1
@@ -1942,12 +1879,12 @@ drydock = {
 
 
 	ai_will_do = {
-		factor = 1
+		factor = 1.5
 	}
 }
 
 conscription_center = {
-	cost = 400
+	cost = 600
 	time = 12
 
 
@@ -1977,7 +1914,7 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -2210,7 +2147,7 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 600
 	time = 60
 	modifier = {
 		trade_goods_size = 1.0
@@ -2255,32 +2192,7 @@ wharf = {
 	}
 
 	ai_will_do = {
-		factor = 1
-
-		modifier = {
-			factor = 0.4
-			NOT = { base_production = 6 }
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 10
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 15
-		}
-		modifier = {
-			factor = 5
-			OR = {
-				has_province_modifier = skanemarket
-				has_province_modifier = comet_ore_modifier
-				has_province_modifier = paradise_modifier
-			}
-		}
-		modifier = {
-			NOT = { num_free_building_slots = 3 }
-			factor = 1.5
-		}
+		factor = 0.5
 	}
 }
 
@@ -2318,7 +2230,7 @@ weapons = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}
 }
 
@@ -2358,7 +2270,7 @@ textile = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -2400,7 +2312,7 @@ plantations = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -2442,7 +2354,7 @@ tradecompany = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -2497,7 +2409,7 @@ farm_estate = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.5
 	}
 }
 
@@ -2538,7 +2450,7 @@ mills = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -2574,7 +2486,7 @@ furnace = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}
 }
 
@@ -2636,10 +2548,6 @@ ramparts = {
 		modifier = {
 			factor = 0
 			from = { num_of_loans = 3 }
-		}
-		modifier = {
-			factor = 20
-			has_terrain = mountain
 		}
 		modifier = {
 			factor = 0
@@ -2713,7 +2621,7 @@ soldier_households = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 20
 	}
 }
 
@@ -2851,7 +2759,7 @@ state_house = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 4
 	}
 }
 

@@ -1,10 +1,7 @@
 # No previous file for Xoconochco
 
 culture = zapotek
-owner = ZAP
-controller = ZAP
-add_core = ZAP
-is_city = yes
+
 religion = nahuatl
 capital = "Xoconochco"
 trade_goods = cocoa

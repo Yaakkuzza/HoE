@@ -1,9 +1,5 @@
 #883 - Lipan
 
-owner = LIP
-controller = LIP
-add_core = LIP
-is_city = yes
 culture = lipan
 religion = totemism
 capital = "Lipan"

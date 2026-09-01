@@ -1,10 +1,7 @@
 # No previous file for Cholula
 
 culture = aztek
-owner = TLX
-controller = TLX
-add_core = TLX
-is_city = yes
+
 religion = nahuatl
 capital = "Cholula"
 trade_goods = sugar

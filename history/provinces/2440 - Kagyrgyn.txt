@@ -1,12 +1,12 @@
 #2440 - Kagyrgyn
 
-owner = CHV
-controller = CHV
-add_core = CHV
+#owner = CHU
+#controller = CHU
+#add_core = CHU
 culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Kagyrgyn"
-trade_goods = fish
+trade_goods = unknown 
 hre = no
 base_tax = 1 
 base_production = 1
@@ -14,7 +14,7 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-is_city = yes
+#is_city = yes
 
 
 
@@ -27,9 +27,9 @@ discovered_by = KMC
 
 1778.1.1 = {
 	discovered_by = RUS
-	owner = RUS
-	controller = RUS
+	#owner = RUS
+	#controller = RUS
 	religion = orthodox
 	culture = russian
 }
-1788.1.1 = { add_core = RUS }
+1788.1.1 = { #add_core = RUS }

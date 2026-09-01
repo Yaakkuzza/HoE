@@ -1,13 +1,11 @@
 #1087 - Wurundjeri
 
-add_core = WRU
-owner = WRU
-controller = WRU
+
 culture = kulin
 religion = dreamtime
 capital = "Wurundjeri"
 hre = no
-is_city = yes
+
 trade_goods = livestock
 base_manpower = 2
 base_tax = 4

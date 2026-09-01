@@ -7,7 +7,7 @@ capital = "Luxemburg"
 is_city = yes
 culture = wallonian
 religion = catholic 
-hre = yes
+hre = no
 base_tax = 5
 base_production = 5
 trade_goods = iron
@@ -33,7 +33,7 @@ discovered_by = ottoman
 1570.1.1 = { unrest = 9 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
 1577.2.12 = { unrest = 5 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
 1579.1.6 = { unrest = 0 } # Union of Arras established
-1659.7.1 = { controller = FRA } # Maréchal Turenne takes control of Luxembourg
+1659.7.1 = { controller = FRA } # Marï¿½chal Turenne takes control of Luxembourg
 1659.10.28 = { controller = SPA } # Peace of the Pyrennees
 1665.9.17 = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
 1672.1.1 = { fort_16th = no fort_17th = yes } #1672, representing further expansion against French attack

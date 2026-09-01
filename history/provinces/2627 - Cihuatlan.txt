@@ -1,10 +1,7 @@
 # 2627 - Cihuatlan
 
 culture = tlapanec
-owner = TLA
-controller = TLA
-add_core = TLA
-is_city = yes
+
 religion = nahuatl
 capital = "Cihuatlan"
 trade_goods = gems

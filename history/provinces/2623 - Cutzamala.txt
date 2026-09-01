@@ -1,10 +1,7 @@
 # No previous file for Cutzamala
 
 culture = matlatzinca
-owner = MAT
-controller = MAT
-add_core = MAT
-is_city = yes
+
 religion = nahuatl
 capital = "Cutzamala"
 trade_goods = sugar

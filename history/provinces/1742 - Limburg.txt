@@ -7,7 +7,7 @@ is_city = yes
 capital = "Roermond"
 culture = flemish
 religion = catholic
-hre = yes
+hre = no
 base_tax = 5
 base_production = 5
 trade_goods = cloth
@@ -38,7 +38,7 @@ discovered_by = ottoman
 	controller = PRU
 	add_core = PRU
 	capital = "Geldern"
-} # Treaty of Utrecht, Spanish Upper Guelders divided between the Dutch, Austria, Prussia and Jülich.
+} # Treaty of Utrecht, Spanish Upper Guelders divided between the Dutch, Austria, Prussia and Jï¿½lich.
 1797.12.26 = {
 	owner = FRA
 	controller = FRA

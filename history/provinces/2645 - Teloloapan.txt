@@ -1,10 +1,7 @@
 # No previous file for Teloloapan
 
 culture = aztek
-owner = AZT
-controller = AZT
-add_core = AZT
-is_city = yes
+
 religion = nahuatl
 capital = "Teloloapan"
 trade_goods = gold

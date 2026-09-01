@@ -1,9 +1,9 @@
 # No previous file for Haaninin
 
-culture = blackfoot
+culture = arapaho
 religion = totemism
 capital = "Haaninin"
-trade_goods = fur
+trade_goods = unknown 
 hre = no
 base_tax = 1 
 base_production = 1
@@ -19,8 +19,16 @@ discovered_by = north_american
 1738.1.1 = { discovered_by = FRA }# Pierre Gaultier de Varennes, no real settlements until the very late 1800's
 
 1760.1.1 = {
-	owner = ---
+	#owner = ---
 	controller = ---
 	remove_core = KIO
 	is_city = no 
 }
+1810.1.1 = {
+	#owner = ASI
+	controller = ASI
+	add_core = ASI
+	culture = nakota
+	is_city = yes 
+} #19th century native expansion
+

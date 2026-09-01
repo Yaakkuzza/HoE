@@ -1,7 +1,7 @@
 #908 - Minnesota
 
 
-tribal_owner = WCY
+
 culture = dakota
 religion = totemism
 capital = "Dakota"

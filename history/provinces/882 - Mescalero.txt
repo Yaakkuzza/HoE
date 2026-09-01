@@ -1,9 +1,6 @@
 #882 - Mescalero
 
-owner = MSC
-controller = MSC
-add_core = MSC
-is_city = yes
+
 culture = mescalero
 religion = totemism
 capital = "Mescalero" 
@@ -15,7 +12,7 @@ base_manpower = 1
 native_size = 10 
 native_ferocity = 2 
 native_hostileness = 6 
-
+tribal_owner = 
 
 
 discovered_by = north_american

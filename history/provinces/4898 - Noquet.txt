@@ -1,9 +1,6 @@
 # No previous file for Noquet
 
-is_city = yes
-owner = OJI
-controller = OJI
-add_core = OJI
+
 culture = anishinabe
 religion = totemism
 capital = "Noquet"

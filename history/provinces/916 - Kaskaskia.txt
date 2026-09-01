@@ -1,9 +1,6 @@
 #916 - Kaskaskia
 
-owner = KSK
-controller = KSK
-add_core = KSK
-is_city = yes
+tribal_owner = 
 culture = illini
 religion = totemism
 capital = "Kaskaskia"

@@ -1,8 +1,6 @@
 #894 - Caddo
 
-add_core = CAD
-owner = CAD
-controller = CAD
+
 culture = caddo
 religion = totemism
 capital = "Caddo"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
+tribal_owner = 
 native_size = 20
 native_ferocity = 3
 native_hostileness = 9

@@ -1,9 +1,6 @@
 # No previous file for Mdewakanton
 
-owner = SIO
-controller = SIO
-add_core = SIO
-is_city = yes
+
 culture = dakota
 religion = totemism
 capital = "Mdewakanton"

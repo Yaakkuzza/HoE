@@ -1,13 +1,10 @@
 #4846 - Woolna
 
-add_core = LAR
-owner = LAR
-controller = LAR
+
 culture = gunwinyguan
 religion = dreamtime
 capital = "Woolna"
 hre = no
-is_city = yes
 trade_goods = tobacco #Nicotiana suaveolens plants were exchanged from the Top End to the Makassar
 base_manpower = 1
 base_tax = 2 

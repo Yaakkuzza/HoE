@@ -1,9 +1,6 @@
 # 2022 - Haida
 
-owner = HDA
-controller = HDA
-add_core = HDA
-is_city = yes
+
 culture = haida
 religion = totemism 
 capital = "Haida"

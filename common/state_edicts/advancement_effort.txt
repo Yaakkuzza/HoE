@@ -8,7 +8,7 @@ edict_advancement_effort = {
 	}
 	
 	modifier = {
-		local_institution_spread = 0.33
+		local_institution_spread = 0.5
 	}
 
 	notify_trigger = {

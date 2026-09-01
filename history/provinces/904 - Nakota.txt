@@ -1,6 +1,5 @@
 #904 - Nakota
 
-tribal_owner = OEO
 culture = chiwere
 religion = totemism
 capital = "Nakota"

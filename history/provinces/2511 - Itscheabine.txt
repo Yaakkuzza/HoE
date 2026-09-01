@@ -1,10 +1,9 @@
 # No previous file for Itscheabine
 
-
-culture = nakota
+culture = arapaho
 religion = totemism
 capital = "Itscheabine"
-trade_goods = fur
+trade_goods = unknown 
 hre = no
 base_tax = 1 
 base_production = 1
@@ -21,3 +20,10 @@ discovered_by = north_american
 1707.5.12 = { discovered_by = GBR }
 1732.1.1 = { discovered_by = FRA } # Pierre Gaultier de Varennes
 
+1760.1.1 = {
+	#owner = ASI
+	controller = ASI
+	add_core = ASI
+	culture = nakota
+	is_city = yes 
+} #Great Plain tribes spread over vast territories

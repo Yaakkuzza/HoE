@@ -1,15 +1,14 @@
-owner = CKW
-controller = CKW
-add_core = CKW
+#owner = CKW
+
 culture = chokwe
 religion = shamanism #Fetishism
 capital = "Ishindi"
 trade_goods = ivory
 hre = no
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 base_manpower = 1
-is_city = yes
+
 discovered_by = central_african
 
-1700.1.1 = { owner = LND controller = LND add_core = LND }
+1700.1.1 = { #owner = LND controller = LND add_core = LND }

@@ -1,9 +1,6 @@
 #838 - Mosquito
 
-owner = MIS
-controller = MIS
-add_core = MIS
-is_city = yes
+
 culture = miskito 
 religion = animism 
 capital = "Mosquito" 

@@ -4,7 +4,7 @@ owner = PIS
 controller = PIS
 culture = tuscan
 religion = catholic
-hre = yes
+hre = no
 base_tax = 6
 base_production = 6
 trade_goods = wine
@@ -37,7 +37,7 @@ center_of_trade = 1
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-} # The Treaty of Lunéville
+} # The Treaty of Lunï¿½ville
 1801.3.21 = {	owner = ETR
 	controller = ETR
 	add_core = ETR

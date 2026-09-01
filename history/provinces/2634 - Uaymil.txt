@@ -1,10 +1,7 @@
 # No previous file for Uaymil
 
 culture = yucatec
-owner = CTM
-controller = CTM
-add_core = CTM
-is_city = yes
+
 religion = mesoamerican_religion
 capital = "Uaymil"
 trade_goods = cocoa

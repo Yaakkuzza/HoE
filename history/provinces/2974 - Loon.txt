@@ -7,7 +7,7 @@ is_city = yes
 capital = "Borgloon"
 culture = flemish
 religion = catholic
-hre = yes
+hre = no
 base_tax = 5
 base_production = 5
 trade_goods = cloth
@@ -24,9 +24,9 @@ discovered_by = ottoman
 1465.10.19 = { unrest = 0 } # Peace is restored
 1467.1.1 = { owner = BUR controller = BUR unrest = 5 } # Charles the Bold installs Louis de Bourbon
 1468.9.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Citizens rise up against the disliked Louis de Bourbon
-1468.9.4 = { revolt = {} controller = BUR } # Charles the Bold sacks Liège
-1477.1.5 = { owner = LIE controller = LIE remove_core = BUR add_core = HAB unrest = 0 } # Charles the Bold dies and Liège is re-established
-1492.8.12 = { remove_core = HAB } # Liège signs a perpetual treaty of neutrality with Austria (and France)
+1468.9.4 = { revolt = {} controller = BUR } # Charles the Bold sacks Liï¿½ge
+1477.1.5 = { owner = LIE controller = LIE remove_core = BUR add_core = HAB unrest = 0 } # Charles the Bold dies and Liï¿½ge is re-established
+1492.8.12 = { remove_core = HAB } # Liï¿½ge signs a perpetual treaty of neutrality with Austria (and France)
 1797.12.26 = {
 	owner = FRA
 	controller = FRA

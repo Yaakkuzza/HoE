@@ -1,9 +1,5 @@
 # - Santa Catalina
 
-owner = CCQ
-controller = CCQ
-add_core = CCQ
-is_city = yes
 culture = diaguita
 
 

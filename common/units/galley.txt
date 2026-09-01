@@ -1,12 +1,12 @@
 #Galley
 type = galley
 
-hull_size = 8
-base_cannons = 12 
+hull_size = 10
+base_cannons = 10
 blockade = 8
 
-sail_speed = 4
+sail_speed = 3.75
 
-sailors = 60
+sailors = 30
 
 sprite_level = 1

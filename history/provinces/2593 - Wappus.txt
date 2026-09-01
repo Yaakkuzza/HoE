@@ -1,8 +1,6 @@
 # No previous file for Wappus
 
-owner = NAK
-controller = NAK
-add_core = NAK
+
 culture = bungi
 religion = totemism
 capital = "Wappus"

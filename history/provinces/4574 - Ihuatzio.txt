@@ -1,10 +1,7 @@
 # No previous file for Ihuatzio
 
 culture = purepecha
-owner = TAR
-controller = TAR
-add_core = TAR
-is_city = yes
+
 religion = nahuatl
 capital = "Ihuatzio"
 trade_goods = grain

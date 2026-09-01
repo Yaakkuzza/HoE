@@ -1,8 +1,6 @@
 #857 - Guachichil
 
-owner = CCM
-controller = CCM
-add_core = CCM
+
 culture = chichimecan 
 religion = animism
 capital = "Guachichil" 

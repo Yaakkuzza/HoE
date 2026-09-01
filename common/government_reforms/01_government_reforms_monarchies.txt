@@ -4811,6 +4811,8 @@ grant_noble_castle_rights_reform = {
 	}
 	modifiers = {
 		fort_maintenance_modifier = -0.2
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05
@@ -4842,9 +4844,9 @@ maintain_nobles_status_quo_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		legitimacy = 0.5
-		meritocracy = 0.5
-		stability_cost_modifier = -0.15
+		legitimacy = 1
+		meritocracy = 1
+		stability_cost_modifier = -0.5
 	}
 	custom_attributes = {
 		free_noble_levies = yes
@@ -4986,7 +4988,7 @@ enforce_trader_privileges_reform = {
 	}
 	modifiers = {
 		trade_range_modifier = 0.3
-		trade_efficiency = 0.05
+		trade_efficiency = 0.1
 	}
 	ai = {
 		factor = 2

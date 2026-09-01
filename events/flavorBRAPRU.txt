@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Brandenburg - Prussia
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-ï¿½rtqvist
 ########################################
 
 namespace = flavor_brapru
@@ -393,7 +393,7 @@ country_event = {
 	}
 }
 
-# University of Königsberg
+# University of Kï¿½nigsberg
 country_event = {
 	id = flavor_brapru.11
 	title = "flavor_brapru.EVTNAME3"
@@ -571,7 +571,6 @@ country_event = {
 	
 	trigger = {
 		tag = BRA
-		NOT = { num_of_loans = 4 }
 		OR = {
 			49 = {
 				owned_by = TEU
@@ -582,20 +581,11 @@ country_event = {
 				controlled_by = TEU
 			}
 		}
-		TEU = { #The Teutonic order hasn't connected their lands to Neumark
-			NOT = { owns = 48 } #Kolberg
-			NOT = { owns = 254 } #Poznan
-			NOT = { owns = 1858 } #Stettin
-			NOT = { owns = 2963 } #Notec
-			NOT = { owns = 2994 } #Greifswald
-			NOT = { owns = 2995 } #Stolp
-		}
 		NOT = { war_with = TEU }
-		NOT = { is_year = 1466 }
 	}
 	
 	mean_time_to_happen = {
-		months = 20 #Reduced due to trigger inflexibility
+		months = 1 #Reduced due to trigger inflexibility
 	}
 	
 	option = {
@@ -607,14 +597,6 @@ country_event = {
 		TEU = {
 			country_event = { id = flavor_brapru.16 }
 		}
-	}
-	option = { #We could not afford that.
-		name = "flavor_brapru.15.b"
-		ai_chance = {
-			factor = 25
-		}
-		custom_tooltip = flavor_brapru.15.b.tt
-		add_prestige = -5
 	}
 }
 
@@ -675,7 +657,7 @@ country_event = {
 	}
 }
 
-#Treaty of Cölln
+#Treaty of Cï¿½lln
 country_event = {
 	id = flavor_brapru.17
 	title = "flavor_brapru.17.t"
@@ -1077,7 +1059,7 @@ country_event = {
 			}
 		}
 	}
-	option = {  #This is only a problem in families that don’t stick together.
+	option = {  #This is only a problem in families that donï¿½t stick together.
 		name = flavor_brapru.25.b
 		ai_chance = { factor = 50 }
 		#Keep union over Ansbach and suffer internal instability OR you dont have Ansbach and your choice is the modifier above or a stab/prestige bonus instead. Emperor will dislike you regardless.
@@ -1215,7 +1197,7 @@ country_event = {
 		hidden_effect = { set_country_flag = pru_legal_reforms_flag }
 	}
 	
-	option = { #Yes! Start in God’s name!
+	option = { #Yes! Start in Godï¿½s name!
 		name = flavor_brapru.27.a
 		ai_chance = {
 			factor = 75
@@ -1232,7 +1214,7 @@ country_event = {
 			duration = -1
 		}
 	}
-	option = { #We have no time for legal Procedure and other formalities…
+	option = { #We have no time for legal Procedure and other formalitiesï¿½
 		name = flavor_brapru.27.b
 		ai_chance = {
 			factor = 25
@@ -1414,7 +1396,7 @@ country_event = {
 	}
 }
 
-# The Burghers of Königsberg (Hieronymus Roth)
+# The Burghers of Kï¿½nigsberg (Hieronymus Roth)
 country_event = {
 	id = flavor_brapru.30
 	title = flavor_brapru.30.t
@@ -1719,7 +1701,7 @@ country_event = {
 	}
 }
 
-# Construction of Canals to Berlin-Cölln has run out of funding
+# Construction of Canals to Berlin-Cï¿½lln has run out of funding
 country_event = {
 	id = flavor_brapru.34
 	title = "flavor_brapru.34.t"
@@ -1837,7 +1819,7 @@ country_event = {
 		add_prestige = 10
 		define_advisor = {
 			type = artist
-			name = "Johann Crüger"
+			name = "Johann Crï¿½ger"
 			skill = 3
 			discount = yes
 		}

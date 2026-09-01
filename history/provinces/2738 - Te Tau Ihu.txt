@@ -3,10 +3,7 @@
 latent_trade_goods = {
 	coal
 }
-add_core = WAI
-owner = WAI
-controller = WAI
-is_city = yes
+
 culture = maori
 religion = animism
 hre = no
