@@ -62,68 +62,6 @@ mp_trade_dominance_check_effect = {
 		}
 	}
 
-	if = {
-		limit = {
-			2868 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_patagonia } }
-			add_country_modifier = { name = mp_trade_dominance_patagonia duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_patagonia }
-			remove_country_modifier = mp_trade_dominance_patagonia
-		}
-	}
-
-	if = {
-		limit = {
-			2935 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_amazonas_node } }
-			add_country_modifier = { name = mp_trade_dominance_amazonas_node duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_amazonas_node }
-			remove_country_modifier = mp_trade_dominance_amazonas_node
-		}
-	}
-
-	if = {
-		limit = {
-			2499 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_rio_grande } }
-			add_country_modifier = { name = mp_trade_dominance_rio_grande duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_rio_grande }
-			remove_country_modifier = mp_trade_dominance_rio_grande
-		}
-	}
 
 	if = {
 		limit = {
@@ -148,27 +86,6 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			2021 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_california } }
-			add_country_modifier = { name = mp_trade_dominance_california duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_california }
-			remove_country_modifier = mp_trade_dominance_california
-		}
-	}
-
-	if = {
-		limit = {
 			730 = {
 				trade_share = {
 					country = ROOT
@@ -185,48 +102,6 @@ mp_trade_dominance_check_effect = {
 		if = {
 			limit = { has_country_modifier = mp_trade_dominance_girin }
 			remove_country_modifier = mp_trade_dominance_girin
-		}
-	}
-
-	if = {
-		limit = {
-			1507 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_mississippi_river } }
-			add_country_modifier = { name = mp_trade_dominance_mississippi_river duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_mississippi_river }
-			remove_country_modifier = mp_trade_dominance_mississippi_river
-		}
-	}
-
-	if = {
-		limit = {
-			2526 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_ohio } }
-			add_country_modifier = { name = mp_trade_dominance_ohio duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_ohio }
-			remove_country_modifier = mp_trade_dominance_ohio
 		}
 	}
 
@@ -374,48 +249,6 @@ mp_trade_dominance_check_effect = {
 		if = {
 			limit = { has_country_modifier = mp_trade_dominance_philippines }
 			remove_country_modifier = mp_trade_dominance_philippines
-		}
-	}
-
-	if = {
-		limit = {
-			800 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_cuiaba } }
-			add_country_modifier = { name = mp_trade_dominance_cuiaba duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_cuiaba }
-			remove_country_modifier = mp_trade_dominance_cuiaba
-		}
-	}
-
-	if = {
-		limit = {
-			809 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_lima } }
-			add_country_modifier = { name = mp_trade_dominance_lima duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_lima }
-			remove_country_modifier = mp_trade_dominance_lima
 		}
 	}
 
@@ -1114,27 +947,6 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			1536 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_laplata } }
-			add_country_modifier = { name = mp_trade_dominance_laplata duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_laplata }
-			remove_country_modifier = mp_trade_dominance_laplata
-		}
-	}
-
-	if = {
-		limit = {
 			1531 = {
 				trade_share = {
 					country = ROOT
@@ -1387,48 +1199,6 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			835 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_panama } }
-			add_country_modifier = { name = mp_trade_dominance_panama duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_panama }
-			remove_country_modifier = mp_trade_dominance_panama
-		}
-	}
-
-	if = {
-		limit = {
-			1516 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_carribean_trade } }
-			add_country_modifier = { name = mp_trade_dominance_carribean_trade duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_carribean_trade }
-			remove_country_modifier = mp_trade_dominance_carribean_trade
-		}
-	}
-
-	if = {
-		limit = {
 			1500 = {
 				trade_share = {
 					country = ROOT
@@ -1445,27 +1215,6 @@ mp_trade_dominance_check_effect = {
 		if = {
 			limit = { has_country_modifier = mp_trade_dominance_chesapeake_bay }
 			remove_country_modifier = mp_trade_dominance_chesapeake_bay
-		}
-	}
-
-	if = {
-		limit = {
-			1490 = {
-				trade_share = {
-					country = ROOT
-					share = 51
-				}
-			}
-		}
-		if = {
-			limit = { NOT = { has_country_modifier = mp_trade_dominance_st_lawrence } }
-			add_country_modifier = { name = mp_trade_dominance_st_lawrence duration = -1 }
-		}
-	}
-	else = {
-		if = {
-			limit = { has_country_modifier = mp_trade_dominance_st_lawrence }
-			remove_country_modifier = mp_trade_dominance_st_lawrence
 		}
 	}
 
