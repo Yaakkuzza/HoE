@@ -95,7 +95,6 @@ difficulty_normal_ai = {
 	global_allowed_num_of_manufactories = 1
 	free_policy = 1
 	advisor_cost = -0.5
-	reduced_liberty_desire = 30
 }
 
 difficulty_hard_ai = {
@@ -119,7 +118,6 @@ difficulty_hard_ai = {
 	country_diplomatic_power = 1
 	country_military_power = 1
 	advisor_cost = -0.5
-	reduced_liberty_desire = 30
 }
 
 difficulty_very_hard_ai = {
@@ -143,7 +141,6 @@ difficulty_very_hard_ai = {
 	country_diplomatic_power = 2
 	country_military_power = 2
 	advisor_cost = -0.5
-	reduced_liberty_desire = 30
 }
 
 
