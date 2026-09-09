@@ -1,11 +1,11 @@
-#Galley
-type = galley
+#Cog
+type = transport
 
 hull_size = 10
-base_cannons = 10
+base_cannons = 1
 blockade = 10
 
-sail_speed = 3.75
+sail_speed = 6
 
 sailors = 30
 

@@ -1,0 +1,28 @@
+economic_hegemon = {
+	allow = {
+		is_great_power = yes
+		if = {
+			limit = {
+				NOT = { has_country_flag = halve_hegemony_requirements }
+			}
+			monthly_income = 1000 
+		}
+		else = { monthly_income = 500 } 
+		NOT = { any_other_great_power = { monthly_income = root } }
+		NOT = { has_country_modifier = lost_hegemony }
+	}
+	
+	base = {
+	}
+	
+	# At max 100% tickup.
+	scale = {
+		land_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.2
+	}
+	
+	max = {
+	}
+	#effect = {} # When a country picks the hegemon
+	#removed_effect = {} # When a country loses the hegemon
+}

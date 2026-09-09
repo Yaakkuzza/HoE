@@ -439,13 +439,13 @@ offensive_ideas = {
 	}
 
 	bayonet_leaders = {
-		shock_damage = 0.1
+		shock_damage = 0.15
 	}
 	national_conscripts = {
-		morale_damage = 0.1
+		morale_damage = 0.15
 	}
 	superior_firepower = {
-		fire_damage = 0.1
+		fire_damage = 0.15
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0
@@ -834,13 +834,13 @@ quality_ideas = {
 		cavalry_power = 0.1
 	}
 	escort_ships = {
-		ship_durability = 0.05
+		leader_land_fire = 1
 	}
 	naval_drill = {
-		naval_morale = 0.10
+		leader_land_shock = 1
 	}
 	copper_bottoms = {
-		naval_attrition = -0.25
+		leader_land_manuever = 1
 	}
 	massed_battery = {
 		artillery_power = 0.1

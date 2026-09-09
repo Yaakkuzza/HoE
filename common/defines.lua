@@ -411,7 +411,7 @@ NDiplomacy = {
 	
 	ABANDON_UNION_PRESTIGE = -25,					-- The change in prestige for the overlord when abandoning a personal union.
 
-	PAY_SUBJECT_DEBT_LIBERTY_DESIRE_REDUCTION = 5,	-- Amount of liberty desire the subject loses per paid loan
+	PAY_SUBJECT_DEBT_LIBERTY_DESIRE_REDUCTION = 0,	-- Amount of liberty desire the subject loses per paid loan
 
 	NUM_OF_GREAT_POWERS = 8,						-- The number of ordinary (i.e. non-leaving) Great Powers if RightsOfManDLC is enabled.
 	LEAVING_GREAT_POWER_YEARS = 5,					-- The number of years a Great Power can remain after being removed from the top (8).
@@ -717,7 +717,7 @@ NCountry = {
 	HEIR_DEATH = 1, 								-- _CDEF_HEIR_DEATH_	(Only applies for heirs older than 20, and the chance increases with age.)
 	LEGITIMACY_DYNASTY_CHANGE = 20,					-- Legitimacy a new dynasty starts out with
 	MIN_REGENCY_LEGITIMACY = 80,
-	BASE_POWER_INCREASE = 5,						-- monthly base increase
+	BASE_POWER_INCREASE = 6,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -3,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 6,							-- extra power given to national focus power
 	NAT_FOCUS_YEARS = 0,							-- years before you can change focus again
@@ -1330,13 +1330,13 @@ NMilitary = {
 	CAVALRY_COST = 40.0, 							-- _MDEF_CAVALRY_COST = 10,
 	ARTILLERY_COST = 60.0, 							-- _MDEF_ARTILLERY_COST = 10,
 	FORTRESS_COST = 0.25,							-- base fort cost
-	HEAVY_SHIP_COST = 120, 							-- _MDEF_HEAVY_SHIP_COST = 10,
+	HEAVY_SHIP_COST = 80, 							-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,
 	TRANSPORT_COST = 10,							-- _MDEF_TRANSPORT_COST = 10,
-	INFANTRY_TIME = 120, 							-- _MDEF_INFANTRY_TIME = 10,
-	CAVALRY_TIME = 180, 								-- _MDEF_CAVALRY_TIME = 10,
-	ARTILLERY_TIME = 240, 							-- _MDEF_ARTILLERY_TIME = 10,
+	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
+	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
+	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
 	HEAVY_SHIP_TIME = 720, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
 	LIGHT_SHIP_TIME = 360, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
 	GALLEY_TIME = 360, 								-- _MDEF_GALLEY_TIME = 10,
@@ -1580,7 +1580,7 @@ NMilitary = {
 	MERCENARY_COMPANY_HIRED_MANPOWER_RECOVERY_MOD = 2.0,		-- How much to modify the length for manpower recovery if they are hired
 	MERCENARY_COMPANY_LOW_MANPOWER_THRESHOLD = 0.1,	-- Percentage of remaining manpower under which we warn the player
 	MERCENARY_TRADE_RANGE_MODIFIER = 1.0,			-- Only use half of trade range
-	MERCENARY_COMPANY_BUILDING_TIME = 0.25,			-- Multiply province distance with this
+	MERCENARY_COMPANY_BUILDING_TIME = 1,			-- Multiply province distance with this
 	MERCENARY_COMPANY_LOCAL_VIRTUAL_DISTANCE = 40,	-- How many "pixels away" local company pretends to be.
 
 	NAVAL_BASE_DISENGAGEMENT_CHANCE = 0.1,			-- Chance of disengaging from naval battles every day when out of morale	0-1 range

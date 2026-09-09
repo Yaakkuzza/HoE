@@ -400,7 +400,7 @@ daimyo_vassal = {
 	enforce_culture = no
 	seize_territory = no
 	#(enable)
-	force_seppuku = yes
+	force_seppuku = no
 	contribute_to_capital = yes
 	conscript_general = yes
 	force_isolation = yes
@@ -634,12 +634,6 @@ colony = {
 	should_quit_wars_on_activation = yes
 
 	can_fight = {
-		other_overlord = colony
-		other_overlord = crown_colony
-		other_overlord = private_enterprise
-		other_overlord = self_governing_colony
-		neighboring_primitives = yes
-		colonial_region_nations = yes
 	}
 	can_rival = {
 		other_overlord = colony
@@ -650,17 +644,18 @@ colony = {
 		colonial_region_nations = yes
 	}
 	can_ally = {
-		neighboring_primitives = yes
 	}
 
 	# Subject Interactions:
 	customize_subject = yes
 	replace_governor = yes
+	placate_rulers = no
 	start_colonial_war = yes
 	increase_tariffs = yes
 	decrease_tariffs = yes
 	enforce_culture = yes
 	divert_trade = yes
+	support_loyalists = no
 
 	# Modifiers:
 	modifier_overlord = {
@@ -1279,7 +1274,6 @@ trade_protectorate = {
 		}
 	}
 	modifier_overlord = {
-		modifier = trade_protectorate_overlord_modifier
 	}
 	modifier_subject = {
 		modifier = gbr_emperor_of_india_subject_bonus

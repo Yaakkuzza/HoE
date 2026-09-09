@@ -5,8 +5,7 @@ religious_tolerance_state_edict = {
 	}
 	
 	allow = {
-		has_government_attribute = unlock_special_state_edicts
-		current_age = age_of_reformation
+		always = yes
 	}
 	
 	modifier = {

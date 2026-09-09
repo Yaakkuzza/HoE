@@ -1,11 +1,11 @@
-#Galiot
-type = galley
+#Merchantman
+type = transport
 
 hull_size = 19
-base_cannons = 19
+base_cannons = 1
 blockade = 10
 
-sail_speed = 4.5
+sail_speed = 9
 
 sailors = 120
 

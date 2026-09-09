@@ -40,7 +40,7 @@ norse_ideas = {
 	}
 	norse_ideas_leifs_legacy = {
 		may_explore = yes
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	norse_ideas_ancestral_faith = {
@@ -521,7 +521,7 @@ ICE_ideas = {
 	}
 	
 	bonus = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}	
 
@@ -1960,8 +1960,10 @@ HAB_ideas = {
 
 CHI_ideas = {
 	start = {
-		fort_maintenance_modifier = -0.2
-		idea_cost = -0.10
+		global_manpower_modifier = -1
+		manpower_recovery_speed = -1
+		global_unrest = 200
+		num_accepted_cultures = -2
 	}
 	
 	bonus = {
@@ -4118,7 +4120,7 @@ USA_ideas = {
 		global_unrest = -2
 	}
 	manifest_destiny = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	lessons_of_valley_forge = {
@@ -7641,7 +7643,7 @@ CAN_ideas = {
 		merchants = 1
 	}
     settling_the_interior = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	the_maritimes = {
@@ -8004,7 +8006,7 @@ CAB_ideas = {
 		hostile_attrition = 1
 	}
 	cab_carib_seafaring = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	cab_religious_syncretism = {
@@ -9097,7 +9099,7 @@ LON_ideas = {
 		global_unrest = -1
 	}
 	lon_conquistadores = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	lon_school_of_salamanca = {
@@ -9184,7 +9186,7 @@ NZH_ideas = {
 		defensiveness = 0.10
 	}
 	nzh_expand_to_the_east = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	nzh_open_up_the_river_trade = {
@@ -13359,7 +13361,7 @@ HDR_ideas = {
 		global_foreign_trade_power = 0.10
 	}
 	bonus = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
@@ -15566,7 +15568,7 @@ AUS_ideas = {
 	}
 	free = yes
 	AUS_outback_stations = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	AUS_land_down_under = {
@@ -15598,7 +15600,7 @@ NZL_ideas = {
 		global_trade_power = 0.1
 	}
 	bonus = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
@@ -15713,7 +15715,7 @@ WSI_ideas = {
 		development_cost = -0.1
 	}
 	bonus = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
@@ -15843,7 +15845,7 @@ ASU_ideas = {
 		diplomats = 1
 	}
 	asu_colonialism = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	asu_millenarian_revival = {
@@ -15890,7 +15892,7 @@ ADU_ideas = {
 		core_creation = -0.15
 	}
 	adu_expeditionary_sentiment = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	adu_al_awasim = {
@@ -16924,7 +16926,7 @@ MAJ_ideas = {
 		trade_efficiency = 0.1
 	}
 	maj_nusa_tenggara = {
-		colonists = 1
+		production_efficiency = 0.1
 		effect = { remove_temporary_colonist = yes }
 	}
 	maj_gajah_madas_oath = {

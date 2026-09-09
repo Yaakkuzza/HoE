@@ -8,7 +8,7 @@ edict_of_governance = {
 	}
 	
 	modifier = {
-		local_governing_cost = -0.05
+		local_governing_cost = -0.1
 	}
 	
 	color = { 69 122 232 }

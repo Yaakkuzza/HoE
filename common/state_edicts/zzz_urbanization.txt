@@ -5,12 +5,11 @@ urbanization_state_edict = {
 	}
 	
 	allow = {
-		has_government_attribute = unlock_special_state_edicts
-		current_age = age_of_revolutions
+		always = yes
 	}
 	
 	modifier = {
-		trade_goods_size_modifier = 0.1
+		production_efficiency = 0.1
 	}
 	
 	color = { 255 255 128 }

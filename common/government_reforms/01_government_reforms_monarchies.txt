@@ -307,6 +307,15 @@ daimyo = {
 		land_morale = 0.1
 		infantry_power = 0.1
 		amount_of_samurai = 4
+		administrative_efficiency = 1
+		global_tax_income = 60
+		country_admin_power = 3
+	country_diplomatic_power = 3
+	country_military_power = 3
+		diplomatic_upkeep = -5
+		build_cost = 10
+		embracement_cost = 10
+		idea_cost = 10
 	}
 	custom_attributes = {
 		locked_government_type = yes

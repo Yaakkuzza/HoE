@@ -1,0 +1,12 @@
+#Brig
+type = transport
+
+hull_size = 15
+base_cannons = 1
+blockade = 10
+
+sail_speed = 8
+
+sailors = 90
+
+sprite_level = 3
