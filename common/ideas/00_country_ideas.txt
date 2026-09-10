@@ -1962,8 +1962,6 @@ CHI_ideas = {
 	start = {
 		global_manpower_modifier = -1
 		manpower_recovery_speed = -1
-		global_unrest = 200
-		num_accepted_cultures = -2
 	}
 	
 	bonus = {

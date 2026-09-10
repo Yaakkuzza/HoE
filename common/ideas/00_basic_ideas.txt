@@ -740,6 +740,7 @@ exploration_ideas = {
 			factor = 10000
 			OR = {
 				tag = ENG
+				tag = JAP
 			}
 		}
 	}
