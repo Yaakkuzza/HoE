@@ -1,7 +1,6 @@
 religious_tolerance_state_edict = {
 	potential = {
 		current_age = age_of_reformation
-		has_government_attribute = unlock_special_state_edicts
 	}
 	
 	allow = {

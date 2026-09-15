@@ -331,7 +331,6 @@ taxes = {
 
 	    }
 		potential = {
-			has_government_attribute = unlock_special_state_edicts
 			current_age = age_of_discovery
 		}
 		ai_will_do = {
@@ -354,7 +353,6 @@ integration = {
 
 	    }
 		potential = {
-			has_government_attribute = unlock_special_state_edicts
 			current_age = age_of_absolutism
 		}
 		ai_will_do = {
@@ -377,7 +375,6 @@ tolerance = {
 
 	    }
 		potential = {
-			has_government_attribute = unlock_special_state_edicts
 			current_age = age_of_reformation
 		}
 		ai_will_do = {
@@ -400,7 +397,6 @@ urbanization = {
 
 	    }
 		potential = {
-			has_government_attribute = unlock_special_state_edicts
 		current_age = age_of_revolutions
 		}
 		ai_will_do = {

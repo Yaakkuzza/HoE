@@ -250,15 +250,14 @@ DOM_japanse_missions_1 = {
 		required_missions = { }
 		position = 6
 		provinces_to_highlight = {
-			region = east_indies_superregion 
+			superregion = east_indies_superregion 
 			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = east_indies_superregion 
-				value = 25 
+				superregion = east_indies_superregion 
+				value = 20
 			}
-			2174 = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = {
 			add_country_modifier = {

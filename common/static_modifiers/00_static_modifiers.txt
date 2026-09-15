@@ -16,8 +16,8 @@ all_nations = {
 	build_cost = 0.5
 	state_maintenance_modifier = 0.5
 	global_tax_income = 12
-	land_forcelimit	= 5
-	naval_forcelimit = 5
+	land_forcelimit	= 3
+	naval_forcelimit = 3
 	ae_impact = 0.5
 	province_warscore_cost = 0.5
 	embracement_cost = 0.5
@@ -634,7 +634,7 @@ base_values = {
 	tolerance_heathen = -3
 	tolerance_heretic = -2
 	global_missionary_strength = 0.02
-	global_manpower = 10.0
+	global_manpower = 5
 	advisor_pool = 3
 	colonist_placement_chance = 0.1
 	free_leader_pool = 1
@@ -653,7 +653,7 @@ base_values = {
 	monthly_heir_claim_increase = 0.208
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
-	max_flagships = 1
+	max_flagships = 2
 	num_of_parliament_issues = 10
 	has_marines = yes
 }
@@ -1592,10 +1592,14 @@ same_religion_subject_bonus_mod = {
 }
 
 eyalet_modifier = {
-	global_manpower = -8
+	global_manpower = -4
 	global_tax_income = -6
-	land_forcelimit	= -4
-	naval_forcelimit = -4
+	land_forcelimit	= -2
+	naval_forcelimit = -2
+}
+
+zazokol = {
+	colonists = 5
 }
 
 #scales to amount of up-to-date forts compared to total development

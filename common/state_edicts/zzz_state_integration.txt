@@ -1,7 +1,6 @@
 state_integration_state_edict = {
 	potential = {
 		current_age = age_of_absolutism
-		has_government_attribute = unlock_special_state_edicts
 	}
 	
 	allow = {

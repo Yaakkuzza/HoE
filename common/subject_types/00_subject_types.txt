@@ -686,6 +686,10 @@ colony = {
 			}
 		}
 	}
+
+	modifier_subject = {
+		modifier = zazokol
+	}
 	
 
 	overlord_opinion_modifier = colonial_relation

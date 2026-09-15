@@ -795,10 +795,10 @@ NCountry = {
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
 	STRENGTHEN_GOVERNMENT_MERITOCRACY = 10,
 
-	CORE_COLONY = 0.5,								-- Multiplied with development, colonized by country or overseas
-	CORE_OVERSEAS = 0.5,							-- Multiplied with development, colonized by country or overseas
-	CORE_SAME_REGION = 0.25,						-- Multiplied with development, for colonial nations
-	CORE_SAME_CONTINENT = 0.75,						-- Multiplied with development, for colonial nations
+	CORE_COLONY = 1,								-- Multiplied with development, colonized by country or overseas
+	CORE_OVERSEAS = 1,							-- Multiplied with development, colonized by country or overseas
+	CORE_SAME_REGION = 1,						-- Multiplied with development, for colonial nations
+	CORE_SAME_CONTINENT = 1,						-- Multiplied with development, for colonial nations
 	CORE_HAD_CLAIM = 0.2,							-- Impacts MODIFIER_CORE_CREATION
 	CORE_HAD_PERMANENT_CLAIM = 0.2,				-- Impacts MODIFIER_CORE_CREATION
 
@@ -1174,8 +1174,8 @@ NEconomy = {
 	GALLEY_MAINT_FACTOR = 0.025,						-- _EDEF_GALLEY_MAINT_FACTOR_
 	TRANSPORT_MAINT_FACTOR = 0.025,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 1.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
-	MISSIONARY_MAINTENANCE_FACTOR = 1.0,				-- How much a missionary costs in itself
-	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 50,	-- How much this is ncreased from development
+	MISSIONARY_MAINTENANCE_FACTOR = 5.0,				-- How much a missionary costs in itself
+	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0,	-- How much this is ncreased from development
 	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0,		-- How much this is ncreased from local autonomy
 	MISSIONARY_MAINTENANCE_AUTONOMY_BASE = 0,			-- The local autonomy is added to this base in the formula.
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_CAP = 40,		-- Where dev will get capped by the system for calculations.
@@ -1296,7 +1296,7 @@ NMilitary = {
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
 	GARRISON_SIZE = 2000, 							-- GARRISON_SIZE
-	SIEGE_FORCE_NEEDED_MULTIPLIER = 1,				-- x times garrison to be able to siege.
+	SIEGE_FORCE_NEEDED_MULTIPLIER = 0.5,				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
 	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
 	ASSAULT_WIDTH_LIMIT = 5,						-- how many times the garrison size that can effectively assault at the same time.
@@ -1311,7 +1311,7 @@ NMilitary = {
 	GALLEY_SHIP_SAILORS_COST = 30,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 30,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 8, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MIN_MONTHLY_MANPOWER = 0.01,						-- 100 men/month is minimum
 	MAX_SAILORS = 8, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
