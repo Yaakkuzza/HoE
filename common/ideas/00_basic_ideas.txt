@@ -735,7 +735,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.1
+		factor = 0.01
 		modifier = {
 			factor = 10000
 			OR = {
@@ -925,14 +925,7 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.1
-		modifier = {
-			factor = 10000
-			OR = {
-				has_idea_group = exploration_ideas
-				is_colonial_nation = yes
-			}
-		}
+		factor = 0.01
 	}
 }
 
@@ -968,14 +961,7 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 100
-		modifier = { 
-			factor = 0
-			OR = { 
-				has_idea_group = expansion_ideas
-				has_idea_group = exploration_ideas
-			}
-		}
+		factor = 1000
 	}
 }
 

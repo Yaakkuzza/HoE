@@ -795,10 +795,10 @@ NCountry = {
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
 	STRENGTHEN_GOVERNMENT_MERITOCRACY = 10,
 
-	CORE_COLONY = 1,								-- Multiplied with development, colonized by country or overseas
-	CORE_OVERSEAS = 1,							-- Multiplied with development, colonized by country or overseas
-	CORE_SAME_REGION = 1,						-- Multiplied with development, for colonial nations
-	CORE_SAME_CONTINENT = 1,						-- Multiplied with development, for colonial nations
+	CORE_COLONY = 0.5,								-- Multiplied with development, colonized by country or overseas
+	CORE_OVERSEAS = 0.5,							-- Multiplied with development, colonized by country or overseas
+	CORE_SAME_REGION = 0.25,						-- Multiplied with development, for colonial nations
+	CORE_SAME_CONTINENT = 0.75,						-- Multiplied with development, for colonial nations
 	CORE_HAD_CLAIM = 0.2,							-- Impacts MODIFIER_CORE_CREATION
 	CORE_HAD_PERMANENT_CLAIM = 0.2,				-- Impacts MODIFIER_CORE_CREATION
 

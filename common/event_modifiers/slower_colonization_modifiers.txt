@@ -1,0 +1,20 @@
+namespace = slower_colonization
+
+slower_colonization_mod_disp = { } # Removing this makes the modifier not appear in the Government screen
+
+slower_colonization = { global_colonial_growth = 0.001 }
+
+slower_colonization_0.1 = { global_colonial_growth = -0.1 }
+slower_colonization_0.2 = { global_colonial_growth = -0.2 }
+slower_colonization_0.4 = { global_colonial_growth = -0.4 }
+slower_colonization_0.8 = { global_colonial_growth = -0.8 }
+slower_colonization_1.6 = { global_colonial_growth = -1.6 }
+slower_colonization_3.2 = { global_colonial_growth = -3.2 }
+slower_colonization_6.4 = { global_colonial_growth = -6.4 }
+slower_colonization_12.8 = { global_colonial_growth = -12.8 }
+slower_colonization_25.6 = { global_colonial_growth = -25.6 }
+slower_colonization_51.2 = { global_colonial_growth = -51.2 }
+slower_colonization_102.4 = { global_colonial_growth = -102.4 }
+slower_colonization_204.8 = { global_colonial_growth = -204.8 }
+slower_colonization_409.6 = { global_colonial_growth = -409.6 }
+slower_colonization_819.2 = { global_colonial_growth = -819.2 }
