@@ -7083,8 +7083,8 @@ WLS_ideas = {
 
 hausa_ideas = {
 	start = {
-		administrative_efficiency = 1
-		global_unrest = -20
+		diplomats = 1
+		global_own_trade_power = 0.1
 	}
 	
 	bonus = {

@@ -34,9 +34,9 @@ military_hegemon = {
 	
 	# At max 100% tickup.
 	scale = {
-		infantry_cost = -0.1
-		cavalry_cost = -0.1
-		artillery_cost = -0.1
+		infantry_cost = -0.2
+		cavalry_cost = -0.2
+		artillery_cost = -0.2
 	}
 	
 	max = {

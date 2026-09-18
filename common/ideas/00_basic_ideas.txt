@@ -408,7 +408,7 @@ diplomatic_ideas = {
 		improve_relation_modifier = 0.5
 	}
 	flexible_negotiation = {
-		reduced_liberty_desire = 0.5
+		reduced_liberty_desire = 20
 	}
 	diplomatic_corps = {
 		diplomats = 2

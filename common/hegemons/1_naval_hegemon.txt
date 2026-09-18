@@ -6,7 +6,7 @@ naval_hegemon = {
 				NOT = { has_country_flag = halve_hegemony_requirements }
 				NOT = { has_country_flag = jap_halve_naval_hegemony_requirements }
 			}
-			navy_size = 500
+			navy_size = 250
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		else = {
@@ -21,7 +21,7 @@ naval_hegemon = {
 	
 	# At max 100% tickup.
 	scale = {
-		global_ship_cost = -0.1
+		global_ship_cost = -0.2
 	}
 	
 	max = {
