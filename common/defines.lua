@@ -230,8 +230,8 @@ NDiplomacy = {
 	AE_SAME_RELIGION_GROUP = 0.0,
 	AE_DIFFERENT_RELIGION = -0.20,
 	AE_HRE_INTERNAL = 0.25,
-	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
-	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
+	AE_ATTACKER_DEVELOPMENT = 0.00,	-- +50% cap (at 1000 development)
+	AE_DEFENDER_DEVELOPMENT = 0.00,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.2, --0.75 per 100 distance
 	AE_SAME_OVERLORD = 0.0,
 	AE_PROVINCE_CAP = 40,				-- Province development above this will not count for AE (also used for warscore cost cap)
@@ -239,13 +239,13 @@ NDiplomacy = {
 	AE_PRIMITIVES = -0.75, -- less AE from primitives
 
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
-	PO_DEMAND_PROVINCES_AE = 0.2, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
+	PO_DEMAND_PROVINCES_AE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
 	PO_RETURN_CORES_AE = 0.1, 					-- (Per core, only applied if returning cores to vassals of winner)
-	PO_FORM_PU_AE = 0.15, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
-	PO_CONCEDE_COLONIAL_AE = 0.1,
-	PO_BECOME_VASSAL_AE = 0.15, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_FORCE_JOIN_EMPIRE_AE = 0.1, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_TRANSFER_VASSAL_AE = 0.15,
+	PO_FORM_PU_AE = 0.2, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
+	PO_CONCEDE_COLONIAL_AE = 0.2,
+	PO_BECOME_VASSAL_AE = 0.2, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_FORCE_JOIN_EMPIRE_AE = 0.15, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_TRANSFER_VASSAL_AE = 0.2,
 	PO_ANNEX_PRESTIGE = 0.25, 						-- _DDEF_PO_ANNEX_PRESTIGE = 10, (No effect on loser :)
 	PO_DEMAND_PROVINCES_PRESTIGE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_PRESTIGE = 10, (Per development)
 	PO_PILLAGE_CAPITAL_PRESTIGE = 0, 				-- _DDEF_PO_PILLAGE_CAPITAL_PRESTIGE = 10, (Per development)
@@ -1774,7 +1774,7 @@ NAI = {
 
 	DEBASE_THRESHOLD = 10000,-- AI will not debase if it has more gold than this.
 
-	DEVELOPMENT_CAP_BASE = 40,	-- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
+	DEVELOPMENT_CAP_BASE = 20,	-- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
 	DEVELOPMENT_CAP_MULT = 2,
 
 	PEACE_BASE_RELUCTANCE = 0, -- AI base stubbornness to refuse peace (always applied)
