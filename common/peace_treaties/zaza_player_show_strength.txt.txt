@@ -1,7 +1,6 @@
 po_player_show_strength = {
 	category = 6
 
-	power_projection = humiliated_rival
 
 	power_cost_base = 0
 	prestige_base = 0
@@ -36,6 +35,18 @@ po_player_show_strength = {
 		add_adm_power = 250
 		add_dip_power = 250
 		add_mil_power = 250
+
+		add_power_projection = {
+			type = humiliated_rival
+			amount = 1
+		}
+
+		FROM = {
+			add_power_projection = {
+				type = humiliated_by_rival
+				amount = 1
+			}
+		}
 	}
 
 	ai_weight = {
