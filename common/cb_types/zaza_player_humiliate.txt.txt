@@ -1,4 +1,4 @@
-cb_player_humiliate = {
+cb_player_show_strength = {
 	valid_for_subject = no
 
 	prerequisites_self = {
@@ -31,5 +31,5 @@ cb_player_humiliate = {
 		po_transfer_vassals
 	}
 
-	war_goal = player_humiliate
+	war_goal = player_show_strength
 }

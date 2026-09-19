@@ -3,26 +3,25 @@ po_player_show_strength = {
 
 	power_projection = humiliated_rival
 
-	power_cost_base = 0.0
-	prestige_base = 0.2
-	ae_base = 0.0
+	power_cost_base = 0
+	prestige_base = 0
+	ae_base = 0
 
 	warscore_cost = {
-		all_provinces = 0.0
-		no_provinces = 2000.0
-		owner_keeps = 0.0
-		conquered = 0.0
-		returned_core = 0.0
-		released_nation = 0.0
-		cancelled_subject = 0.0
-		concede_colonial_region = 0.0
+		all_provinces = 0
+		no_provinces = 2000
+		owner_keeps = 0
+		conquered = 0
+		returned_core = 0
+		released_nation = 0
+		cancelled_subject = 0
+		concede_colonial_region = 0
 	}
 
-	warscore_cap = 100
+	warscore_cap = 90
 
 	requires_demand_independence = no
 	is_make_subject = no
-
 	requires_is_allowed = yes
 
 	is_visible = {
