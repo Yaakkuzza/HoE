@@ -1,0 +1,58 @@
+po_player_show_strength = {
+	category = 6
+
+
+	power_cost_base = 0
+	prestige_base = 0
+	ae_base = 0
+
+	warscore_cost = {
+		all_provinces = 0
+		no_provinces = 2000
+		owner_keeps = 0
+		conquered = 0
+		returned_core = 0
+		released_nation = 0
+		cancelled_subject = 0
+		concede_colonial_region = 0
+	}
+
+	warscore_cap = 90
+
+	requires_demand_independence = no
+	is_make_subject = no
+	requires_is_allowed = yes
+
+	is_visible = {
+		always = yes
+	}
+
+	is_allowed = {
+		always = yes
+	}
+
+	effect = {
+		add_adm_power = 250
+		add_dip_power = 250
+		add_mil_power = 250
+
+		add_power_projection = {
+			type = humiliated_rival
+			amount = 1
+		}
+
+		FROM = {
+			add_power_projection = {
+				type = humiliated_by_rival
+				amount = 1
+			}
+		}
+	}
+
+	ai_weight = {
+		export_to_variable = {
+			variable_name = ai_value
+			value = 0
+		}
+	}
+}
