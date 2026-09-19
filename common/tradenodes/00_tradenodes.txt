@@ -1595,7 +1595,7 @@ english_channel={
 	end=yes
 }
 brazil={
-	location=1531
+	location=825
 	outgoing={
 		name="sevilla"
 		path={
@@ -1609,7 +1609,7 @@ brazil={
 		name="mexico"
 	}
 	outgoing={
-		name="polynesia_node"
+		name="nippon"
 	}
 	members={
 		2857 2879 2884 2887 #Rio Grande
@@ -1648,7 +1648,7 @@ brazil={
 }
 
 chesapeake_bay={
-	location=1500
+	location=900
 	color={
 		193 26 14 
 	}
@@ -1674,7 +1674,7 @@ chesapeake_bay={
 		name="mexico"
 	}
 	outgoing={
-		name="polynesia_node"
+		name="nippon"
 	}
 	members={
 		1929 931 932 933 935 936 937 938 949 950 951 952 953 954 955 956 957 958 962 963 965
@@ -1712,7 +1712,7 @@ chesapeake_bay={
 		}
 }
 mexico={
-	location=1516
+	location=852
 	color={
 		0 176 0 
 	}
@@ -1738,7 +1738,7 @@ mexico={
 		}
 	}
 	outgoing={
-		name="polynesia_node"
+		name="nippon"
 	}
 	members={
 		863 864 859 860 861 855 856 858 857 854 851 853 849 850 848 847 844

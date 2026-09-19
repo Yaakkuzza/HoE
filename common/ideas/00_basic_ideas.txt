@@ -439,13 +439,13 @@ offensive_ideas = {
 	}
 
 	bayonet_leaders = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	national_conscripts = {
-		morale_damage = 0.15
+		morale_damage = 0.1
 	}
 	superior_firepower = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	glorious_arms = {
 		prestige_from_land = 1.0
@@ -509,13 +509,13 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 	}
 	military_drill = {
-		morale_damage_received = -0.1
+		morale_damage_received = -0.05
 	}
 	improved_manuever = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.05
 	}
 	regimental_system = {
 		hostile_attrition = 1
