@@ -1,0 +1,11 @@
+player_humiliate_winner = {
+	power = 1
+	yearly_decay = 1
+	max = 30
+}
+
+player_humiliate_loser = {
+	power = 1
+	yearly_decay = 1
+	min = -30
+}
