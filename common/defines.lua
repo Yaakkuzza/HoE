@@ -222,30 +222,30 @@ NDiplomacy = {
 	SABOTAGE_RECRUITMENT_DURATION = 60,
 	SLANDER_MERCHANTS_DURATION = 60,
 
-	AE_OTHER_CONTINENT = 10,
-	AE_SAME_CULTURE = 0.5,
-	AE_SAME_CULTURE_GROUP = 0.25,
-	AE_INFIDEL_CONQUEST = 0.25, 		-- different religion group conquered same religion province
-	AE_SAME_RELIGION = 0.5,
+	AE_OTHER_CONTINENT = 0.0,
+	AE_SAME_CULTURE = 0.0,
+	AE_SAME_CULTURE_GROUP = 0.0,
+	AE_INFIDEL_CONQUEST = 1, 		-- different religion group conquered same religion province
+	AE_SAME_RELIGION = 0.25,
 	AE_SAME_RELIGION_GROUP = 0.0,
-	AE_DIFFERENT_RELIGION = -0.5,
-	AE_HRE_INTERNAL = 0.5,
-	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
-	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
-	AE_DISTANCE_BASE = 0.75, --0.75 per 100 distance
-	AE_SAME_OVERLORD = 0.5,
-	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
+	AE_DIFFERENT_RELIGION = -0.20,
+	AE_HRE_INTERNAL = 0.25,
+	AE_ATTACKER_DEVELOPMENT = 0.00,	-- +50% cap (at 1000 development)
+	AE_DEFENDER_DEVELOPMENT = 0.00,	-- -50% cap (at 1000 development)
+	AE_DISTANCE_BASE = 0.2, --0.75 per 100 distance
+	AE_SAME_OVERLORD = 0.0,
+	AE_PROVINCE_CAP = 40,				-- Province development above this will not count for AE (also used for warscore cost cap)
 	AE_THREATEN_WAR = 1.0,
 	AE_PRIMITIVES = -0.75, -- less AE from primitives
 
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
-	PO_DEMAND_PROVINCES_AE = 0.6, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
-	PO_RETURN_CORES_AE = 0.4, 					-- (Per core, only applied if returning cores to vassals of winner)
-	PO_FORM_PU_AE = 0.20, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
+	PO_DEMAND_PROVINCES_AE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
+	PO_RETURN_CORES_AE = 0.1, 					-- (Per core, only applied if returning cores to vassals of winner)
+	PO_FORM_PU_AE = 0.2, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.2,
-	PO_BECOME_VASSAL_AE = 0.5, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_FORCE_JOIN_EMPIRE_AE = 0.2, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_TRANSFER_VASSAL_AE = 0.3,
+	PO_BECOME_VASSAL_AE = 0.2, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_FORCE_JOIN_EMPIRE_AE = 0.15, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_TRANSFER_VASSAL_AE = 0.2,
 	PO_ANNEX_PRESTIGE = 0.25, 						-- _DDEF_PO_ANNEX_PRESTIGE = 10, (No effect on loser :)
 	PO_DEMAND_PROVINCES_PRESTIGE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_PRESTIGE = 10, (Per development)
 	PO_PILLAGE_CAPITAL_PRESTIGE = 0, 				-- _DDEF_PO_PILLAGE_CAPITAL_PRESTIGE = 10, (Per development)
@@ -929,7 +929,7 @@ NCountry = {
 	MIN_LIBERTY_DESIRE_INFLUENCE = -100,			-- Min influence of a single modifier (e.g. paid of debt)
 	MAX_LIBERTY_DESIRE_INFLUENCE = 100000,			-- Max influence of a single modifier (e.g. seized province)
 
-	MAX_CROWN_COLONIES = 5,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 10,							-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	OVERSEAS_DISTANCE = 150,						-- Provinces beyond this distance to capital are distant overseas
 
