@@ -1,0 +1,97 @@
+# $name$ represents slower_colonization
+# $variable$ represents current_colonial_growth
+# $scope$ represents country
+# $value$ is the amount of the modifier to add
+
+remove_colonization_modifier = {
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=819.2 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=409.6 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=204.8 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=102.4 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=51.2 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=25.6 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=12.8 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=6.4 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=3.2 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=1.6 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=0.8 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=0.4 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=0.2 }
+	remove_colonization_modifier_helper = { name=$name$ scope=$scope$ value=0.1 }
+}
+
+remove_colonization_modifier_helper = {
+	# Remove the modifier if it is already set (so we don't apply the same again)
+	if = {
+		limit = {
+			has_$scope$_modifier = $name$_$value$
+		}
+		remove_$scope$_modifier = $name$_$value$
+	}
+}
+
+refresh_binary_colonization_modifier = {
+	if = {
+		limit = {
+			# Check if calculated debuff is at least 0.1
+			check_variable = { 
+				which = $variable$ 
+				value = 0.1 
+			}
+		}
+
+		# Save the actual value of the calculate debuff
+		set_variable = { 
+			which = temp 
+			which = $variable$ 
+		}
+
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=819.2 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=409.6 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=204.8 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=102.4 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=51.2 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=25.6 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=12.8 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=6.4 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=3.2 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=1.6 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=0.8 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=0.4 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=0.2 }
+		refresh_binary_colonization_modifier_helper = { name=$name$ variable=$variable$ scope=$scope$ value=0.1 }
+
+		set_variable = { 
+			which = temp 
+			value = 0 
+		}
+	}
+	else = {
+		remove_$scope$_modifier = $name$
+	}
+}
+
+refresh_binary_colonization_modifier_helper = {
+	# Check if the calculated debuff is higher or equal to $value$
+	if = {
+		limit = {
+			check_variable = { 
+				which = $variable$ 
+				value = $value$ 
+			}
+		}
+
+		# If it is, subtract $value$ from it
+		subtract_variable = { 
+			which = $variable$ 
+			value = $value$ 
+		}
+
+		# And then apply $value$ amount of debuff
+		add_$scope$_modifier = {
+			name = $name$_$value$
+			duration = -1
+			hidden = yes
+		}
+	}
+}

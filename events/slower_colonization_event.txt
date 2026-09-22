@@ -1,0 +1,144 @@
+namespace = slower_colonization
+
+country_event = {
+	id = slower_colonization.1
+    title = slower_colonization.1.t
+    desc = slower_colonization.1.desc
+    picture = COLONIZATION_eventPicture
+
+	hidden = yes
+
+	# Triggers if either the country has never had this modifier, or if it has been more than a year ago since it fired
+	trigger = {
+		AND = {
+			is_month = 0
+
+			OR = {
+				had_country_flag = { 
+					flag = slower_colonization_timer 
+					days = 365 }
+					
+				NOT = { 
+					has_country_flag = slower_colonization_timer 
+				}
+			}
+		}
+	}
+
+	# When triggered, effect will be applied almost instantaneously
+	mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		# Remove the flag (in case it was already there)
+		clr_country_flag = slower_colonization_timer
+
+		# Add the flag
+		set_country_flag = slower_colonization_timer
+
+		# Remove the old modifiers before checking again
+		remove_colonization_modifier = {
+			name = slower_colonization
+			scope = country
+		}
+
+		export_to_variable = { 
+			which = current_colonial_growth 
+			value = modifier:global_colonial_growth 
+			}
+
+		# The modifier global_colonial_growth does not include the amount provided by technologies, so it has to be added manually to the calculation
+		# Tech 1
+		if = {
+			limit = { dip_tech = 1 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 10
+			}
+		}
+
+		# Tech 3
+		if = {
+			limit = { dip_tech = 3 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 15
+			}
+		}
+
+		# Tech 10
+		if = {
+			limit = { dip_tech = 10 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 10
+			}
+		}
+
+		# Tech 15
+		if = {
+			limit = { dip_tech = 15 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 15
+			}
+		}
+
+		# Tech 23
+		if = {
+			limit = { dip_tech = 23 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 25
+			}
+		}
+
+		# Tech 26
+		if = {
+			limit = { dip_tech = 23 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 25
+			}
+		}
+
+		# Tech 32
+		if = {
+			limit = { dip_tech = 32 }
+
+			change_variable = {
+				which = current_colonial_growth
+				value = 50
+			}
+		}
+
+		# Multiply the countries Global Settler Increase by 0.5 
+		multiply_variable = { 
+			which = current_colonial_growth 
+			value = 0.5 }
+
+		# Clean up by deleting the temporary variable
+		set_variable = { 
+			which = temp 
+			value = 0 
+			} 
+
+		# Execute binary modifier script
+		refresh_binary_colonization_modifier = { 
+			name = slower_colonization 
+			variable = current_colonial_growth 
+			scope = country 
+			}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

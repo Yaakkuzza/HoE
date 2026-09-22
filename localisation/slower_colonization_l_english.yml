@@ -1,0 +1,22 @@
+﻿l_english:
+ slower_colonization.1.t:0 "Slower Colonization Triggered!"
+ slower_colonization.1.desc:0 "Colonization debuff applied."
+ slower_colonization.1.a:0 "Sounds good."
+
+ slower_colonization: "Slower Colonization"
+ slower_colonization_0.1: "Slower Colonization"
+ slower_colonization_0.2: "Slower Colonization"
+ slower_colonization_0.4: "Slower Colonization"
+ slower_colonization_0.8: "Slower Colonization"
+ slower_colonization_1.6: "Slower Colonization"
+ slower_colonization_3.2: "Slower Colonization"
+ slower_colonization_6.4: "Slower Colonization"
+ slower_colonization_12.8: "Slower Colonization"
+ slower_colonization_25.6: "Slower Colonization"
+ slower_colonization_51.2: "Slower Colonization"
+ slower_colonization_102.4: "Slower Colonization"
+ slower_colonization_204.8: "Slower Colonization"
+ slower_colonization_409.6: "Slower Colonization"
+ slower_colonization_819.2: "Slower Colonization"
+ 
+ desc_slower_colonization: "Slower Colonization Debuff: §G+[Root.modifier_var.GetValue]¤§!" 
