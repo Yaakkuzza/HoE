@@ -741,6 +741,7 @@ exploration_ideas = {
 			OR = {
 				tag = ENG
 				tag = JAP
+				tag = CAS
 			}
 		}
 	}
