@@ -25,7 +25,7 @@ edict_centralization_effort = {
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 100
 			all_province_in_state = {
 				local_autonomy_above_min = 10
 			}

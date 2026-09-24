@@ -217,7 +217,7 @@ defensive = {
 			ai = no
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
 		effect = {			
 			every_owned_province = {

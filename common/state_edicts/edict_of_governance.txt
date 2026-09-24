@@ -14,6 +14,6 @@ edict_of_governance = {
 	color = { 69 122 232 }
 	
 	ai_will_do = {
-		factor = 5
+		factor = 0
 	}
 }

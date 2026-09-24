@@ -195,35 +195,6 @@ country_decisions = {
 			add_prestige = 25
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				tag = CAS
-				NOT = { is_year = 1530 }
-				ARA = { 
-					exists = yes 
-					num_of_owned_provinces_with = {
-						value = 15
-						region = iberia_region
-					}
-				}
-				NOT = { is_enemy = ARA }
-				NOT = { is_rival = ARA }
-			}
-			modifier = {
-				factor = 0
-				tag = ARA
-				NOT = { is_year = 1530 }
-				CAS = { 
-					exists = yes 
-					num_of_owned_provinces_with = {
-						value = 25
-						region = iberia_region
-					}
-				}
-				NOT = { is_enemy = CAS }
-				NOT = { is_rival = CAS }
-			}
 		}
 		ai_importance = 400
 	}
@@ -378,9 +349,9 @@ country_decisions = {
 			set_country_flag = formed_spain_flag
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
-		ai_importance = 200
+		ai_importance = 800
 		do_not_integrate = ARA
 		do_not_integrate = CAS
 	}	
