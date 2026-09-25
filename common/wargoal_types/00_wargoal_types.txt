@@ -1095,9 +1095,9 @@ take_colony = {
 	type = take_colony
 	
 	attacker = {
-		badboy_factor = 0.25
+		badboy_factor = 1
 		prestige_factor = 0.5
-		peace_cost_factor = 0.25
+		peace_cost_factor = 0.75
 		peace_cost_factor_non_allowed_treaty = 1.25
 		
 		allowed_provinces = {
@@ -2336,9 +2336,9 @@ superiority_chinese_unification = {
 	type = superiority
 	
 	attacker = {
-		badboy_factor = 0.25
+		badboy_factor = 1
 		prestige_factor = 1.5
-		peace_cost_factor = 0.5
+		peace_cost_factor = 0.75
 		
 		allowed_provinces = {
 			superregion = china_superregion

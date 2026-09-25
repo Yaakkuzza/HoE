@@ -107,7 +107,7 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			1551 = {
+			852 = {
 				trade_share = {
 					country = ROOT
 					share = 51
@@ -947,7 +947,7 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			1531 = {
+			825 = {
 				trade_share = {
 					country = ROOT
 					share = 51
@@ -1199,7 +1199,7 @@ mp_trade_dominance_check_effect = {
 
 	if = {
 		limit = {
-			1500 = {
+			900 = {
 				trade_share = {
 					country = ROOT
 					share = 51

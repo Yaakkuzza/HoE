@@ -350,8 +350,8 @@ NDiplomacy = {
 
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
 	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
-	MIN_RELATIONS_TO_ALLY = -25,						-- Alliances not possible if either country has an opinion of the other lower than this
-	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_ALLY = -100,						-- Alliances not possible if either country has an opinion of the other lower than this
+	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -50,	-- Support Independence not possible if either country has an opinion of the other lower than this
 
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
@@ -1174,7 +1174,7 @@ NEconomy = {
 	GALLEY_MAINT_FACTOR = 0.025,						-- _EDEF_GALLEY_MAINT_FACTOR_
 	TRANSPORT_MAINT_FACTOR = 0.025,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 1.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
-	MISSIONARY_MAINTENANCE_FACTOR = 5.0,				-- How much a missionary costs in itself
+	MISSIONARY_MAINTENANCE_FACTOR = 50.0,				-- How much a missionary costs in itself
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0,	-- How much this is ncreased from development
 	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0,		-- How much this is ncreased from local autonomy
 	MISSIONARY_MAINTENANCE_AUTONOMY_BASE = 0,			-- The local autonomy is added to this base in the formula.
